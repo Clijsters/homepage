@@ -1,0 +1,7 @@
+{
+  "app": {
+    "locale": "en",
+    "welcome": "Welcome to Your Vue.js App",
+    "changeLanguage": "Change language"
+  }
+}

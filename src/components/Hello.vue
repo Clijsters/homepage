@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>{{ $t("app.welcome") }}</h1>
+    <button v-on:click="changeLocale">{{ $t("app.changeLanguage") }}</button>
     <h2>Essential Links</h2>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
@@ -21,11 +22,13 @@
 </template>
 
 <script>
+import Vue from 'vue'
 export default {
-  name: 'hello',
   data() {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      changeLocale() {
+        Vue.config.lang = Vue.config.lang === 'de' ? 'en' : 'de'
+      }
     }
   }
 }

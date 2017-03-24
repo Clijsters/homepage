@@ -1,0 +1,43 @@
+html {
+  font-family: $font-family;
+  font-size: $font-size--normal;
+
+  @include for-tablet-portrait-up {
+    font-size: $font-size--big;
+  }
+
+  @include for-tablet-landscape-up {
+    font-size: $font-size--large;
+  }
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+body {
+  min-height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: $color1;
+}

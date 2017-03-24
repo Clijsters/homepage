@@ -5,6 +5,7 @@ import VueI18n from 'vue-i18n'
 import App from './App'
 import router from './router'
 import locales from './lang'
+import './style/main.scss'
 
 // install plugins
 Vue.use(VueI18n)

@@ -1,5 +1,6 @@
 var path = require('path')
 var config = require('../config')
+var postCssConfig = require('./postcss.config.js')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 exports.assetsPath = function (_path) {
@@ -12,6 +13,7 @@ exports.assetsPath = function (_path) {
 exports.cssLoaders = function (options) {
   options = options || {}
 
+  // CSS to CommonJS
   var cssLoader = {
     loader: 'css-loader',
     options: {
@@ -20,9 +22,22 @@ exports.cssLoaders = function (options) {
     }
   }
 
+
+  // Postprocess CSS, i.e. autoprefixer
+  postCssConfig.sourceMap = options.sourceMap
+  var postCssLoader = {
+    loader: 'postcss-loader',
+    options: postCssConfig
+  }
+
+  // Preprocess CSS from SCSS, etc
   // generate loader string to be used with extract text plugin
   function generateLoaders (loader) {
     var loaders = [cssLoader]
+    if (options.postcss) {
+      loaders.push(postCssLoader)
+    }
+
     if (loader) {
       loaders.push({
         loader: loader + '-loader',

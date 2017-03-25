@@ -1,17 +1,16 @@
 var utils = require('./utils')
 var config = require('../config')
+var postCssConfig = require('./postcss.config.js')
 var isProduction = process.env.NODE_ENV === 'production'
+var useSourceMap = isProduction
+  ? config.build.productionSourceMap
+  : config.dev.cssSourceMap
 
 module.exports = {
   loaders: utils.cssLoaders({
-    sourceMap: isProduction
-      ? config.build.productionSourceMap
-      : config.dev.cssSourceMap,
-    extract: isProduction
+    sourceMap: useSourceMap,
+    extract: isProduction,
+    postcss: false
   }),
-  postcss: [
-    require('autoprefixer')({
-      browsers: ['last 2 versions']
-    })
-  ]
+  postcss: postCssConfig.plugins
 }

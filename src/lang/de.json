@@ -3,5 +3,11 @@
     "locale": "de",
     "welcome": "Willkommen bei Deiner Vue.js App",
     "changeLanguage": "Sprache wechseln"
+  },
+  "navigation": {
+    "about": "über mich",
+    "skills": "fähigkeiten",
+    "work": "projekte",
+    "contact": "kontakt"
   }
 }

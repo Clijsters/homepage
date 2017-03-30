@@ -39,5 +39,19 @@ li {
 }
 
 a {
-  color: $color1;
+  color: $color6;
+  text-decoration: none;
+  transition: color .3s ease;
+
+  &:hover {
+    color: $color5;
+  }
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  background-size: 100% 100%;
+  cursor: pointer;
+  outline: none;
 }

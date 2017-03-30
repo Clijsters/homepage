@@ -1,12 +1,16 @@
 <template>
   <div id="app" class="app is__center">
-    <img src="./assets/logo.png">
-    <router-view></router-view>
+    <navigation></navigation>
+    <router-view class="app__router-view"></router-view>
   </div>
 </template>
 
 <script>
+import navigation from 'components/Navigation'
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    navigation
+  }
 }
 </script>

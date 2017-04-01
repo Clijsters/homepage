@@ -1,7 +1,6 @@
 <template>
   <div id="app" class="app is__center">
     <navigation></navigation>
-    <router-view class="app__router-view"></router-view>
   </div>
 </template>
 

@@ -9,5 +9,9 @@
     "skills": "fähigkeiten",
     "work": "projekte",
     "contact": "kontakt"
+  },
+  "about": {
+    "hello": "Hey, Ich bin Christian",
+    "info": "Ich arbeite als Software Engineer in Berlin, bin leidenschaftlicher Programmierer und verwikliche Projekte am liebsten mit einem hervoragendem Team."
   }
 }

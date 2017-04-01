@@ -9,5 +9,9 @@
     "skills": "skills",
     "work": "work",
     "contact": "contact"
+  },
+  "about": {
+    "hello": "Hey, I'm Christian",
+    "info": "I'm a software engineer based in Berlin, Germany. I have a passion for programming and love to work with brilliant engineers."
   }
 }

@@ -1,5 +1,5 @@
 <template>
-  <header class="navigation__container">
+  <header class="navigation">
     <ul class="navigation__list">
       <li class="navigation__item navigation__item--first">
         <router-link to="#home">cfischer</router-link>

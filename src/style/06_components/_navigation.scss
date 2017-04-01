@@ -1,14 +1,11 @@
 .navigation {
-
-  &__container {
-    background-color: $color1;
-    padding: 20px 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-  }
+  background-color: $color1;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 
   &__list {
     margin: 0 40px;

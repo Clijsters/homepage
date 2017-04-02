@@ -13,5 +13,9 @@
   "about": {
     "hello": "Hey, Ich bin Christian",
     "info": "Ich arbeite als Software Engineer in Berlin, bin leidenschaftlicher Programmierer und verwikliche Projekte am liebsten mit einem hervoragendem Team."
+  },
+  "contact": {
+    "heading": "Kontaktiere mich.",
+    "info": "Wenn du mit mir in Verbindung treten möchtest, mehr Infos über meine Arbeit haben möchtest oder einfach Code sehen willst: Diese Links helfen dir weiter."
   }
 }

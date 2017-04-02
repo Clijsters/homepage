@@ -1,0 +1,19 @@
+.contact {
+
+  &__item {
+    width: 80px;
+    height: 80px;
+    color: darken($color2, 10%);
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      color: darken($color2, 20%);
+      transform: scale(1.05, 1.05);
+    }
+  }
+
+  &__image {
+    min-width: 60px;
+    height: 60px;
+  }
+}

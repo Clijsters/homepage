@@ -44,16 +44,17 @@ li {
 }
 
 a {
-  color: $color6;
+  color: inherit;
+  cursor: pointer;
   text-decoration: none;
-  transition: color .3s ease;
 
   &:hover {
-    color: $color5;
+    color: inherit;
   }
 }
 
 button {
+  color: inherit;
   border: none;
   background-color: transparent;
   background-size: 100% 100%;

@@ -11,7 +11,8 @@ import './style/main.scss'
 Vue.use(VueI18n)
 
 // set lang
-Vue.config.lang = 'de'
+// TODO(cfischer): Save language in local storage
+Vue.config.lang = 'en'
 
 // set locales
 Object.keys(locales).forEach((lang) => {

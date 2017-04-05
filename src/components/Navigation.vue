@@ -2,19 +2,19 @@
   <header class="navigation">
     <ul class="navigation__list">
       <li class="navigation__item navigation__item--first">
-        <router-link to="#home">cfischer</router-link>
+        <a href="#" v-scroll-to="{ el: '#app', offset: -100 }">cfischer</a>
       </li>
       <li class="navigation__item">
-        <router-link to="#about">{{ $t("navigation.about") }}</router-link>
+        <a href="#" v-scroll-to="{ el: '#app', offset: -100 }">{{ $t("navigation.about") }}</a>
       </li>
       <li class="navigation__item">
-        <router-link to="#skills">{{ $t("navigation.skills") }}</router-link>
+        <a href="#" v-scroll-to="{ el: '#skills', offset: -100 }">{{ $t("navigation.skills") }}</a>
       </li>
       <li class="navigation__item">
-        <router-link to="#work">{{ $t("navigation.work") }}</router-link>
+        <a href="#" v-scroll-to="{ el: '#work', offset: -100 }">{{ $t("navigation.work") }}</a>
       </li>
       <li class="navigation__item">
-        <router-link to="#contact">{{ $t("navigation.contact") }}</router-link>
+        <a href="#" v-scroll-to="{ el: '#contact', offset: -100 }">{{ $t("navigation.contact") }}<a>
       </li>
       <li class="navigation__item">
         <button @click="changeLanguage"

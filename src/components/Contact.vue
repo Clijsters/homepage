@@ -1,5 +1,5 @@
 <template>
-  <section class="contact">
+  <section id="contact" class="contact">
     <h1>{{ $t("contact.heading") }}</h1>
     <p>{{ $t("contact.info") }}</p>
     <ul>

@@ -14,6 +14,9 @@
     "hello": "Hey, I'm Christian",
     "info": "I'm a software engineer based in Berlin, Germany. I have a passion for programming and love to work with brilliant engineers."
   },
+  "skills": {
+    "heading": "Skills"
+  },
   "contact": {
     "heading": "Contact me.",
     "info": "If you would like to get in touch with me, are interested in more work related info or just want to checkout my code: Here are the links you need.",

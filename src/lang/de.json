@@ -17,5 +17,10 @@
   "contact": {
     "heading": "Kontaktiere mich.",
     "info": "Wenn du mit mir in Verbindung treten möchtest, mehr Infos über meine Arbeit haben möchtest oder einfach Code sehen willst: Diese Links helfen dir weiter."
+  },
+  "footer": {
+    "withLove": "Erstellt mit",
+    "and": "und",
+    "copyright": "&copy; 2017 Christian Fischer. Alle Rechte vorbehalten."
   }
 }

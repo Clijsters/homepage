@@ -21,5 +21,10 @@
     "linkedin": "LinkedIn",
     "xing": "Xing",
     "github": "GitHub"
+  },
+  "footer": {
+    "withLove": "Made with",
+    "and": "and",
+    "copyright": "&copy; 2017 Christian Fischer. All rights reserved."
   }
 }

@@ -1,0 +1,31 @@
+.footer {
+  background-color: $color3;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: 40px 0 0 0;
+
+  &__list {
+    margin: 0 40px;
+  }
+
+  &__made-with-love {
+    font-size: $font-size--small;
+  }
+
+  &__heart {
+    height: 12px;
+  }
+
+  &__vuejs {
+    color: darken($color2, 10%);
+
+    &:hover {
+      color: darken($color2, 20%);
+    }
+  }
+
+  &__copyright {
+
+  }
+}

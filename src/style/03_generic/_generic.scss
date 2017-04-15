@@ -1,2 +1,8 @@
 // normalize
 @import 'vendor/normalize';
+
+// load custom font
+@font-face {
+  font-family: $font-family--avenir;
+  src: url(../assets/avenir_roman.otf) format('truetype');
+}

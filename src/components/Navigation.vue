@@ -14,7 +14,7 @@
         <a href="#" v-scroll-to="{ el: '#work', offset: -100 }">{{ $t("navigation.work") }}</a>
       </li>
       <li class="navigation__item">
-        <a href="#" v-scroll-to="{ el: '#contact', offset: -100 }">{{ $t("navigation.contact") }}<a>
+        <a href="#" v-scroll-to="{ el: '#contact', offset: -100 }">{{ $t("navigation.contact") }}</a>
       </li>
       <li class="navigation__item">
         <button @click="changeLanguage"

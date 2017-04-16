@@ -1,8 +1,11 @@
 // normalize
 @import 'vendor/normalize';
 
-// load custom font
-@font-face {
-  font-family: $font-family--avenir;
-  src: url(../assets/avenir_roman.otf) format('truetype');
+// load custom font (all but ie & edge)
+// TODO(cfischer): load custom font for ie & edge
+@media all and (min-width: 0px) {
+  @font-face {
+    font-family: $font-family--avenir;
+    src: url(../assets/avenir_normal.otf) format('truetype');
+  }
 }

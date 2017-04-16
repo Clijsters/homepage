@@ -8,8 +8,8 @@
           <p>{{ $t("about.more") }}</p>
           <span class="about__arrow"></span>
         </a>
-      <div>
-    <div>
+      </div>
+    </div>
   </section>
 </template>
 

@@ -25,6 +25,15 @@
     &--first {
       float: left;
     }
+
+    &--dark {
+      transition: color .35s ease-in-out;
+      color: $color5;
+
+      &:hover {
+        color: $color2;
+      }
+    }
   }
 
   // TODO(cfischer): fix button in ff

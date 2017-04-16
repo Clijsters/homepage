@@ -2,24 +2,24 @@
   <header class="navigation">
     <ul class="navigation__list">
       <li class="navigation__item navigation__item--first">
-        <a href="#" v-scroll-to="{ el: '#app' }">cfischer</a>
+        <a href="#" :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#app' }">cfischer</a>
       </li>
       <li class="navigation__item">
-        <a href="#" v-scroll-to="{ el: '#app' }">{{ $t("navigation.about") }}</a>
+        <a href="#" :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#app' }">{{ $t("navigation.about") }}</a>
       </li>
       <li class="navigation__item">
-        <a href="#" v-scroll-to="{ el: '#skills', offset: -40 }">{{ $t("navigation.skills") }}</a>
+        <a href="#" :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#skills', offset: -40 }">{{ $t("navigation.skills") }}</a>
       </li>
       <li class="navigation__item">
-        <a href="#" v-scroll-to="{ el: '#work', offset: -40 }">{{ $t("navigation.work") }}</a>
+        <a href="#" :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#work', offset: -40 }">{{ $t("navigation.work") }}</a>
       </li>
       <li class="navigation__item">
-        <a href="#" v-scroll-to="{ el: '#contact', offset: -40 }">{{ $t("navigation.contact") }}</a>
+        <a href="#" :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#contact', offset: -40 }">{{ $t("navigation.contact") }}</a>
       </li>
       <li class="navigation__item">
         <button @click="changeLanguage"
-          :class="[{'navigation__change-language--en': isEnglish},
-                   {'navigation__change-language--de': isGerman}, 'navigation__change-language']">
+          :class="[{ 'navigation__change-language--en': isEnglish },
+                   { 'navigation__change-language--de': isGerman }, 'navigation__change-language']">
         </button>
       </li>
     </ul>
@@ -29,6 +29,11 @@
 <script>
 import Vue from 'vue'
 export default {
+  data() {
+    return {
+      isDark: false
+    }
+  },
   computed: {
     isEnglish() {
       return Vue.config.lang === 'en'
@@ -40,7 +45,17 @@ export default {
   methods: {
     changeLanguage() {
       Vue.config.lang = Vue.config.lang === 'en' ? 'de' : 'en'
+    },
+    onScroll() {
+      const rect = document.querySelector('.about').getBoundingClientRect()
+      this.isDark = rect.bottom <= 0
     }
+  },
+  mounted() {
+    window.addEventListener('scroll', this.onScroll)
+  },
+  destroy() {
+    window.removeEventListener('scroll', this.onScroll)
   }
 }
 </script>

@@ -1,9 +1,4 @@
 {
-  "app": {
-    "locale": "de",
-    "welcome": "Willkommen bei Deiner Vue.js App",
-    "changeLanguage": "Sprache wechseln"
-  },
   "navigation": {
     "about": "über mich",
     "skills": "fähigkeiten",
@@ -11,18 +6,19 @@
     "contact": "kontakt"
   },
   "about": {
-    "hello": "Hey, Ich bin Christian",
-    "info": "Ich arbeite als Software Engineer in Berlin, bin leidenschaftlicher Programmierer und verwikliche Projekte am liebsten mit einem hervoragendem Team."
+    "hello": "Hi, Ich bin Christian",
+    "info": "Ich arbeite als Software Engineer in Berlin, bin leidenschaftlicher Programmierer und verwikliche Projekte am liebsten mit einem hervoragendem Team.",
+    "more": "Erfahre mehr"
   },
   "skills": {
     "heading": "Fähigkeiten"
   },
   "contact": {
-    "heading": "Kontaktiere mich.",
+    "heading": "Möchtest du mehr erfahren?",
     "info": "Wenn du mit mir in Verbindung treten möchtest, mehr Infos über meine Arbeit haben möchtest oder einfach Code sehen willst: Diese Links helfen dir weiter."
   },
   "footer": {
-    "withLove": "Erstellt mit",
+    "withLove": "Handgemacht mit",
     "and": "und",
     "copyright": "&copy; 2017 Christian Fischer. Alle Rechte vorbehalten."
   }

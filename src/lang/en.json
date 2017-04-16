@@ -1,9 +1,4 @@
 {
-  "app": {
-    "locale": "en",
-    "welcome": "Welcome to Your Vue.js App",
-    "changeLanguage": "Change language"
-  },
   "navigation": {
     "about": "about",
     "skills": "skills",
@@ -11,14 +6,15 @@
     "contact": "contact"
   },
   "about": {
-    "hello": "Hey, I'm Christian",
-    "info": "I'm a software engineer based in Berlin, Germany. I have a passion for programming and love to work with brilliant engineers."
+    "hello": "Hi, my name is Christian",
+    "info": "I'm a software engineer based in Berlin, Germany. I have a passion for programming and love to work with brilliant engineers.",
+    "more": "Learn more"
   },
   "skills": {
-    "heading": "Skills"
+    "heading": "Expertise"
   },
   "contact": {
-    "heading": "Contact me.",
+    "heading": "Want to know more?",
     "info": "If you would like to get in touch with me, are interested in more work related info or just want to checkout my code: Here are the links you need.",
     "mail": "Mail",
     "linkedin": "LinkedIn",
@@ -26,7 +22,7 @@
     "github": "GitHub"
   },
   "footer": {
-    "withLove": "Made with",
+    "withLove": "Handmade with",
     "and": "and",
     "copyright": "&copy; 2017 Christian Fischer. All rights reserved."
   }

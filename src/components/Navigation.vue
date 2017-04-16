@@ -2,19 +2,19 @@
   <header class="navigation">
     <ul class="navigation__list">
       <li class="navigation__item navigation__item--first">
-        <a href="#" v-scroll-to="{ el: '#app', offset: -100 }">cfischer</a>
+        <a href="#" v-scroll-to="{ el: '#app' }">cfischer</a>
       </li>
       <li class="navigation__item">
-        <a href="#" v-scroll-to="{ el: '#app', offset: -100 }">{{ $t("navigation.about") }}</a>
+        <a href="#" v-scroll-to="{ el: '#app' }">{{ $t("navigation.about") }}</a>
       </li>
       <li class="navigation__item">
-        <a href="#" v-scroll-to="{ el: '#skills', offset: -100 }">{{ $t("navigation.skills") }}</a>
+        <a href="#" v-scroll-to="{ el: '#skills', offset: -40 }">{{ $t("navigation.skills") }}</a>
       </li>
       <li class="navigation__item">
-        <a href="#" v-scroll-to="{ el: '#work', offset: -100 }">{{ $t("navigation.work") }}</a>
+        <a href="#" v-scroll-to="{ el: '#work', offset: -40 }">{{ $t("navigation.work") }}</a>
       </li>
       <li class="navigation__item">
-        <a href="#" v-scroll-to="{ el: '#contact', offset: -100 }">{{ $t("navigation.contact") }}</a>
+        <a href="#" v-scroll-to="{ el: '#contact', offset: -40 }">{{ $t("navigation.contact") }}</a>
       </li>
       <li class="navigation__item">
         <button @click="changeLanguage"

@@ -1,5 +1,6 @@
 .footer {
-  background-color: $color3;
+  color: $color6;
+  background-color: $color2;
   left: 0;
   right: 0;
   position: absolute;
@@ -14,18 +15,20 @@
   }
 
   &__heart {
-    height: 12px;
+    height: 18px;
   }
 
   &__vuejs {
-    color: darken($color2, 10%);
     transition: all .35s ease-in-out;
     transition-property: color, border-color;
+    color: $color6;
+    border-bottom: 1px solid $color6;
 
     &:hover {
-      color: darken($color2, 20%);
       transition: all .35s ease-in-out;
       transition-property: color, border-color;
+      color: $color5;
+      border-color: $color5;
     }
   }
 

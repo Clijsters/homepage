@@ -5,11 +5,11 @@
   &__item {
     width: 80px;
     height: 80px;
-    color: darken($color2, 10%);
+    color: $color5;
     transition: all .35s ease-in-out;
 
     &:hover {
-      color: darken($color2, 20%);
+      color: $color2;
       transform: scale(1.05, 1.05);
     }
   }

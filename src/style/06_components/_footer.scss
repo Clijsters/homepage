@@ -19,9 +19,13 @@
 
   &__vuejs {
     color: darken($color2, 10%);
+    transition: all .35s ease-in-out;
+    transition-property: color, border-color;
 
     &:hover {
       color: darken($color2, 20%);
+      transition: all .35s ease-in-out;
+      transition-property: color, border-color;
     }
   }
 

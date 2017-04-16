@@ -30,11 +30,21 @@
 
   &__more {
     flex: 0 1 auto;
+    transition: color .35s ease-in-out;
+
+    &:hover {
+      color: $color5;
+
+      .about__arrow {
+        border-top: 10px solid $color5;
+      }
+    }
   }
 
   &__arrow {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-top: 10px solid $color6;
+    transition: border .35s ease-in-out;
   }
 }

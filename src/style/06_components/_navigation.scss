@@ -9,8 +9,7 @@
   &__list {
     margin: 0 40px;
     text-align: right;
-    // TODO(cfischer):
-    // fix inline space between elements
+    // TODO(cfischer): fix inline space between elements
     // display: flex; (breaks align right)
   }
 
@@ -36,7 +35,7 @@
     }
   }
 
-  // TODO(cfischer): fix button in ff
+  // TODO(cfischer): fix button in ff, ie, edge
   &__change-language {
     width: 30px;
     height: 30px;

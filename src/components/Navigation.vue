@@ -48,7 +48,7 @@ export default {
     },
     onScroll() {
       const rect = document.querySelector('.about').getBoundingClientRect()
-      this.isDark = rect.bottom <= 0
+      this.isDark = rect.bottom <= 60
     }
   },
   mounted() {

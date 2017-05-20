@@ -26,7 +26,7 @@
           datasets: [
             {
               label: 'Proficiency',
-              data: [0.9, 0.7, 0.5, 0.5, 0.4, 0.7, 0.4, 0.6, 0.6, 0.5],
+              data: [0.85, 0.7, 0.5, 0.5, 0.4, 0.7, 0.4, 0.6, 0.6, 0.5],
               backgroundColor: [
                 'rgba(45, 114, 143, 1)',
                 'rgba(45, 114, 143, 1)',
@@ -50,9 +50,6 @@
             callbacks: {
               label: (tooltip) => {
                 const proficiency = tooltip.yLabel
-                if (proficiency >= 0.9) {
-                  return 'Rockstar'
-                }
                 if (proficiency >= 0.7) {
                   return 'Expert'
                 }

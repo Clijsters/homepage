@@ -10,7 +10,7 @@
         </a>
       </li>
       <li class="contact__item">
-        <a href="https://www.linkedin.com/in/christianfischer1995" target="_blank">
+        <a href="https://www.linkedin.com/in/cfischerio" target="_blank">
           <img class="contact__image" src="../assets/linkedin.png" />
           {{ $t("contact.linkedin") }}
         </a>

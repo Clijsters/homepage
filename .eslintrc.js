@@ -15,7 +15,7 @@ module.exports = {
   plugins: [
     'html'
   ],
-  extends: '.eslintrc-default.js',
+  extends: 'cfischer',
   // add your custom rules here
   rules: {
     // allow debugger during development

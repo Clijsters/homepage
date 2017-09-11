@@ -15,9 +15,20 @@
 
 <script>
 export default {
+  methods: {
+    /**
+      Fixes incorrect 100vh on mobile clients.
+    */
+    setHeroHeight() {
+      document.getElementById('hero').style.height = `${window.innerHeight}px`
+    }
+  },
   mounted() {
-    // Fixes incorrect 100vh on mobile clients
-    document.getElementById('hero').style.height = `${window.innerHeight}px`
+    this.setHeroHeight()
+    window.addEventListener('resize', this.setHeroHeight)
+  },
+  destroy() {
+    window.removeEventListener('resize', this.setHeroHeight)
   }
 }
 </script>

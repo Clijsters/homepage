@@ -1,5 +1,5 @@
 <template>
-  <section class="about">
+  <section id="hero" class="about">
     <div class="about__graylayer">
       <div class="about__container">
         <h1 class="about__hello">{{ $t("about.hello") }}</h1>
@@ -14,5 +14,10 @@
 </template>
 
 <script>
-export default { }
+export default {
+  mounted() {
+    // Fixes incorrect 100vh on mobile clients
+    document.getElementById('hero').style.height = `${window.innerHeight}px`
+  }
+}
 </script>

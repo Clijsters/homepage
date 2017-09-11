@@ -39,8 +39,8 @@
   &__change-language {
     width: 30px;
     height: 30px;
-    padding: 10px;
     background: no-repeat center/100 url(../assets/usa_flag.svg);
+    vertical-align: bottom;
     transition: all .35s ease, background-image ease 0s;
 
     &:hover {

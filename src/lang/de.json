@@ -7,7 +7,8 @@
   },
   "about": {
     "hello": "Hi, Ich bin Christian",
-    "info": "Ich arbeite als Software Engineer in Berlin, bin leidenschaftlicher Programmierer und verwikliche Projekte am liebsten mit einem hervoragendem Team.",
+    "info1": "Ich arbeite als Software Engineer in Berlin und bin leidenschaftlicher Programmierer.",
+    "info2": "Am liebsten verwikliche ich Projekte mit einem hervoragendem Team.",
     "more": "Erfahre mehr"
   },
   "skills": {

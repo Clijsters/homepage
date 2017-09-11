@@ -7,7 +7,8 @@
   },
   "about": {
     "hello": "Hi, my name is Christian",
-    "info": "I'm a software engineer based in Berlin, Germany. I have a passion for programming and love to work with brilliant engineers.",
+    "info1": "I'm a software engineer based in Berlin, Germany.",
+    "info2": "I have a passion for programming and love to work with brilliant engineers.",
     "more": "Learn more"
   },
   "skills": {

@@ -3,7 +3,8 @@
     <div class="about__graylayer">
       <div class="about__container">
         <h1 class="about__hello">{{ $t("about.hello") }}</h1>
-        <p class="about__info">{{ $t("about.info") }}</p>
+        <p class="about__info1">{{ $t("about.info1") }}</p>
+        <p class="about__info2">{{ $t("about.info2") }}</p>
         <a class="about__more" href="#" v-scroll-to="{ el: '#skills', offset: -40 }">
           <p>{{ $t("about.more") }}</p>
           <span class="about__arrow"></span>

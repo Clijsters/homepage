@@ -20,12 +20,19 @@
   }
 
   &__hello {
-    padding-top: 30vh;
+    flex: 0 0 auto;
+    padding-top: 25vh;
     margin: 0;
   }
 
-  &__info {
-    flex: 1 1 auto;
+  &__info1 {
+    flex: 0 0 auto;
+    margin: 15px 0;
+  }
+
+  &__info2 {
+    flex: 1 0 auto;
+    margin: 15px 0;
   }
 
   &__more {

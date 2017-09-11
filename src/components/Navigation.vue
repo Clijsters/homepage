@@ -10,9 +10,9 @@
       <li class="navigation__item">
         <a href="#" :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#skills', offset: -40 }">{{ $t("navigation.skills") }}</a>
       </li>
-      <li class="navigation__item">
+      <!-- <li class="navigation__item">
         <a href="#" :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#work', offset: -40 }">{{ $t("navigation.work") }}</a>
-      </li>
+      </li> -->
       <li class="navigation__item">
         <a href="#" :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#contact', offset: -40 }">{{ $t("navigation.contact") }}</a>
       </li>

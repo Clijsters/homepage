@@ -10,6 +10,12 @@
     height: 100%;
   }
 
+  @media (max-width: 425px) {
+    .about__container {
+      margin: 0 auto;
+    }
+  }
+
   &__container {
     margin: 0 auto 0 15%;
     max-width: 310px;

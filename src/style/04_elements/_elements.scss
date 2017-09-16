@@ -1,13 +1,38 @@
 html {
   font-family: $font-family;
-  font-size: $font-size--normal;
+  font-size: 16px;
+  line-height: 1.2;
+
+  @include for-phone-portrait-up {
+    font-size: 110%;
+  }
+
+  @include for-phone-landscape-up {
+    font-size: 120%;
+  }
 
   @include for-tablet-portrait-up {
-    font-size: $font-size--big;
+    font-size: 130%;
   }
 
   @include for-tablet-landscape-up {
-    font-size: $font-size--large;
+    font-size: 140%;
+  }
+
+  @include for-desktop-up {
+    font-size: 150%;
+  }
+
+  @include for-big-desktop-up {
+    font-size: 160%;
+  }
+
+  @include for-large-desktop-up {
+    font-size: 170%;
+  }
+
+  @include for-4k-desktop-up {
+    font-size: 200%;
   }
 }
 

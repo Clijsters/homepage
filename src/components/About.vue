@@ -21,7 +21,7 @@ export default {
       Fixes incorrect 100vh on mobile clients.
     */
     setHeroHeight() {
-      document.getElementById('hero').style.height = `${window.innerHeight}px`
+      // document.getElementById('hero').style.height = `${window.innerHeight}px`
     }
   },
   mounted() {

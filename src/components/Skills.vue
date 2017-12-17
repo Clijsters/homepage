@@ -1,5 +1,5 @@
 <template>
-  <section id="skills" class="skills">
+  <section id="skills" class="container--fluid skills">
     <h1>{{ $t("skills.heading") }}</h1>
     <bar-chart :chart-data="chartData" :options="chartOptions"></bar-chart>
   </section>

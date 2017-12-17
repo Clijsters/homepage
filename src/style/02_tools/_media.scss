@@ -1,0 +1,21 @@
+@mixin media($sizeMin: '', $sizeMax: '') {
+  $separator: '';
+
+  @if str_length($sizeMin) > 1 {
+    $sizeMin: getMapVal($breakpoints, $sizeMin);
+    $sizeMin: '(min-width: #{$sizeMin}px)';
+  }
+
+  @if str_length($sizeMax) > 1 {
+    $sizeMax: getMapVal($breakpoints, $sizeMax);
+    $sizeMax: '(max-width: #{$sizeMax - 1}px)';
+  }
+
+  @if str_length($sizeMin) > 1 and str_length($sizeMax) > 1 {
+    $separator: ' and ';
+  }
+
+  @media #{$sizeMin}#{$separator}#{$sizeMax} {
+    @content;
+  }
+}

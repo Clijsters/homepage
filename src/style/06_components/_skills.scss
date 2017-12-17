@@ -1,4 +1,9 @@
 .skills {
   margin: 40px auto;
-  width: 40%;
+}
+
+@include media(tablet, '') {
+  .skills {
+    width: 40%;
+  }
 }

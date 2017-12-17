@@ -1,0 +1,10 @@
+.container {
+  margin: 0 auto;
+  width: getMapVal($breakpoints, max) + px;
+  padding: 0 $gutter/2;
+
+  &--fluid {
+    margin: 0 auto;
+    padding: 0 $gutter/2;
+  }
+}

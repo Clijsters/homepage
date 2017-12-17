@@ -1,6 +1,6 @@
 <template>
   <section id="hero" class="about">
-    <div class="about__graylayer">
+    <div class="about__graylayer container--fluid ">
       <div class="about__container">
         <h1 class="about__hello">{{ $t("about.hello") }}</h1>
         <p class="about__info1">{{ $t("about.info1") }}</p>

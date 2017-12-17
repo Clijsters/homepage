@@ -1,14 +1,14 @@
 .navigation {
-  padding: 45px 0;
+  padding-top: 45px;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  right: 0;
   z-index: 1000;
 
   &__list {
-    margin: 0 40px;
-    text-align: right;
+    // margin: 0 40px;
+    // text-align: right;
     // TODO(cfischer): fix inline space between elements
     // display: flex; (breaks align right)
   }
@@ -22,7 +22,7 @@
     }
 
     &--first {
-      float: left;
+      text-align: left;
     }
 
     &--dark {

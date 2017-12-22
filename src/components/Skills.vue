@@ -11,7 +11,7 @@
   /* eslint-disable */
   Chart.defaults.global.defaultFontFamily = '"Avenir", "Helvetica Neue", Helvetica, sans-serif'
   Chart.defaults.global.defaultFontColor = 'rgba(30, 30, 36, 1)'
-  Chart.defaults.global.defaultFontSize = 20
+  Chart.defaults.global.defaultFontSize = 16
   /* eslint-enable */
 
   export default {

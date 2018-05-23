@@ -6,6 +6,12 @@
   right: 0;
   z-index: 1000;
 
+  @media (min-width: 400px) {
+    .navigation__item--first {
+      padding: 0 0 0 20px;
+    }
+  }
+
   &__list {
     // margin: 0 40px;
     // text-align: right;

@@ -1,6 +1,7 @@
 <template>
   <div id="app" class="app is__center">
     <navigation></navigation>
+    <hero></hero>
     <about></about>
     <skills></skills>
     <contact></contact>
@@ -10,6 +11,7 @@
 
 <script>
 import navigation from 'components/Navigation'
+import hero from 'components/Hero'
 import about from 'components/About'
 import skills from 'components/Skills'
 import contact from 'components/Contact'
@@ -18,6 +20,7 @@ export default {
   name: 'app',
   components: {
     navigation,
+    hero,
     about,
     skills,
     contact,

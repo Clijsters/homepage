@@ -1,26 +1,29 @@
 {
   "navigation": {
-    "about": "über mich",
-    "skills": "fähigkeiten",
+    "about": "about",
+    "skills": "skills",
     "work": "projekte",
     "contact": "kontakt"
   },
-  "about": {
-    "hello": "Hi, Ich bin Christian",
-    "info1": "Ich arbeite als Software Engineer in Berlin und bin leidenschaftlicher Programmierer.",
-    "info2": "Am liebsten verwikliche ich Projekte mit einem hervoragendem Team.",
+  "hero": {
+    "engineer": "Software Engineer & Frontend Expert",
+    "info1": "Ich bringe Ihre Frontend Architektur auf das nächste Level.",
+    "info2": "Ich bin leidenschaftlicher Programmierer und arbeite am liebsten mit exzellenten Entwicklern.",
     "more": "Erfahre mehr"
+  },
+  "about": {
+    "hello": "Hi, ich bin Christian.",
+    "info1": "Ich arbeite seit über 6+ Jahren als Software Engineer in der Industrie. In dieser Zeit habe ich einen sehr guten Überblick der Industrielandschaft gewonnen und dabei mit vielen Technologien und Programmiersprachen gearbeitet. Ich habe mich auf Frontend Themen wie JavaScript, React, Angular, HTML, CSS, TypeScript spezialisiert. Außerdem bilde ich mein Wissen zu Teamstrukruten, Management und allgemeinen Themen in der Softwareentwicklung stetig weiter."
   },
   "skills": {
     "heading": "Fähigkeiten"
   },
   "contact": {
-    "heading": "Möchtest du mehr erfahren?",
-    "info": "Wenn du mit mir in Verbindung treten möchtest, mehr Infos über meine Arbeit haben möchtest oder einfach Code sehen willst: Diese Links helfen dir weiter."
+    "heading": "Brauchen Sie Verstärkung?",
+    "info": "Tretten Sie in Kontakt."
   },
   "footer": {
     "withLove": "Handgemacht mit",
-    "and": "und",
-    "copyright": "&copy; 2017 Christian Fischer. Alle Rechte vorbehalten."
+    "copyright": "&copy; 2018 Christian Fischer. Alle Rechte vorbehalten."
   }
 }

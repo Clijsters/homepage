@@ -1,15 +1,29 @@
 <template>
-  <section id="hero" class="about">
-    <div class="about__graylayer container--fluid ">
-      <div class="about__container">
-        <h1 class="about__hello">{{ $t("about.hello") }}</h1>
-        <p class="about__info1">{{ $t("about.info1") }}</p>
-        <p class="about__info2">{{ $t("about.info2") }}</p>
-        <a class="about__more" href="#" v-scroll-to="{ el: '#skills', offset: -40 }">
-          <p>{{ $t("about.more") }}</p>
-          <span class="about__arrow"></span>
-        </a>
-      </div>
+  <section id="about" class="about container--fluid">
+    <div class="about__container container--fluid">
+      <h2 class="about__hello">{{ $t("about.hello") }}</h2>
+      <p class="about__info1">{{ $t("about.info1") }}</p>
+
+      <ul class="about__social row">
+        <li class="column--4 contact__item">
+          <a href="https://www.linkedin.com/in/cfischerio" target="_blank">
+            <img class="contact__image" src="../assets/linkedin.png" />
+            <p class="contact__image__description">{{ $t("contact.linkedin") }}</p>
+          </a>
+        </li>
+        <li class="column--4 contact__item">
+          <a href="https://github.com/cfischer" target="_blank">
+            <img class="contact__image" src="../assets/github.png" />
+            <p class="contact__image__description">{{ $t("contact.github") }}</p>
+          </a>
+        </li>
+        <li class="column--4 contact__item">
+          <a href="https://www.xing.com/profile/Christian_Fischer364" target="_blank">
+            <img class="contact__image" src="../assets/xing.png" />
+            <p class="contact__image__description">{{ $t("contact.xing") }}</p>
+          </a>
+        </li>
+      </ul>
     </div>
   </section>
 </template>

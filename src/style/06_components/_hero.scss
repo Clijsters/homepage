@@ -1,0 +1,87 @@
+.hero {
+  background: no-repeat center/100% url('../assets/cfischer_header.jpg');
+  // background-position-x: 0px;
+  background-size: cover;
+  height: 100vh;
+
+  &__graylayer {
+    background-image: linear-gradient(90deg, rgba(50,60,65,0.5), rgba(50,60,65,0));
+    height: 100%;
+  }
+
+  @media (max-width: 1000px) and (orientation:landscape) {
+    .hero__container {
+      margin: 0 auto 0 25px !important;
+    }
+
+    .hero__hello {
+      padding-top: 20vh;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .hero__container {
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    &__hello {
+      max-width: 280px;
+    }
+
+    &__info1, &__more, &__info2 {
+      max-width: 150px;
+    }
+  }
+
+  &__container {
+    margin: 0 auto 0 250px;
+    max-width: 350px;
+    height: 100%;
+    color: $color6;
+    display: flex;
+    flex-flow: column;
+  }
+
+  &__hello {
+    flex: 0 0 auto;
+    padding-top: 12vh;
+    margin: 10px 0 0 0 ;
+    text-align: left;
+  }
+
+  &__info1 {
+    text-align: left;
+    flex: 1 1 auto;
+  }
+
+  &__info2 {
+    text-align: left;
+    flex: 1 0 auto;
+    margin: 10px 0 15px 0;
+    visibility: hidden;
+  }
+
+  &__more {
+    z-index: 5000;
+    flex: 0 1 auto;
+    transition: color .35s ease-in-out;
+    margin: -15px 0 0 0;
+
+    &:hover {
+      color: $color5;
+
+      .hero__arrow {
+        border-top: 10px solid $color5;
+      }
+    }
+  }
+
+  &__arrow {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid $color6;
+    transition: border-color .35s ease-in-out;
+  }
+}

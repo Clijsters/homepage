@@ -1,11 +1,21 @@
 .contact {
 
-  &__item {
+  &__item--dark {
     color: $color5;
     transition: all .35s ease-in-out;
 
     &:hover {
       color: $color2;
+      transform: scale(1.05, 1.05);
+    }
+  }
+
+  &__item {
+    color: $color6;
+    transition: all .35s ease-in-out;
+
+    &:hover {
+      color: $color5;
       transform: scale(1.05, 1.05);
     }
   }

@@ -11,7 +11,7 @@
   /* eslint-disable */
   Chart.defaults.global.defaultFontFamily = '"Avenir", "Helvetica Neue", Helvetica, sans-serif'
   Chart.defaults.global.defaultFontColor = 'rgba(30, 30, 36, 1)'
-  Chart.defaults.global.defaultFontSize = 16
+  Chart.defaults.global.defaultFontSize = 18
   /* eslint-enable */
 
   export default {
@@ -21,13 +21,14 @@
     data() {
       return {
         chartData: {
-          labels: ['JavaScript', 'Angular', 'TypeScript', 'Web Services',
+          labels: ['JavaScript', 'React', 'Angular', 'TypeScript', 'Web Services',
             'Node.js', 'Git', 'Web Design', 'HTML', 'Sass', 'C#'],
           datasets: [
             {
               label: 'Proficiency',
-              data: [0.85, 0.7, 0.5, 0.5, 0.4, 0.7, 0.4, 0.6, 0.6, 0.5],
+              data: [0.85, 0.7, 0.7, 0.5, 0.5, 0.4, 0.7, 0.4, 0.6, 0.6, 0.5],
               backgroundColor: [
+                'rgba(45, 114, 143, 1)',
                 'rgba(45, 114, 143, 1)',
                 'rgba(45, 114, 143, 1)',
                 'rgba(45, 114, 143, 1)',

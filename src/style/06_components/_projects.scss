@@ -24,14 +24,13 @@
       border-radius: 10px;
     }
 
-    &--gk {
-      height: 32px !important;
-      margin: 0 0 20px 0;
-    }
-
     &--magine {
       height: 50px !important;
       margin: 0 0 20px 0;
+    }
+
+    &--gk {
+      margin: 0 0 0 -10px;
     }
 
     &--man {
@@ -53,6 +52,14 @@
     &__logo {
       max-width: 160px;
       height: 60px;
+
+      &--gk {
+        margin: 0 0 0 -5px;
+      }
+
+      &--man {
+        margin: 0 0 0 -10px;
+      }
     }
 
     &__info {

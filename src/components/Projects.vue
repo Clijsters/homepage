@@ -3,7 +3,7 @@
     <h1>{{ $t("projects.heading") }}</h1>
     <div class="projects__container container--fluid">
       <div class="row">
-        <div class="column--4 projects__offset">
+        <div class="column--2 projects__offset">
         </div>
         <div class="projects__info column-mobile--12 column--8">
           <img class="projects__logo" src="../assets/outfittery_logo.svg" />
@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="column--4 projects__offset">
+        <div class="column--2 projects__offset">
         </div>
         <div class="projects__info column-mobile--12 column--8">
           <img class="projects__logo projects__logo--magine" src="../assets/magine_logo.svg" />
@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="column--4 projects__offset">
+        <div class="column--2 projects__offset">
         </div>
         <div class="projects__info column-mobile--12 column--8">
           <img class="projects__logo projects__logo--man" src="../assets/8man_logo.png" />
@@ -39,7 +39,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="column--4 projects__offset">
+        <div class="column--2 projects__offset">
         </div>
         <div class="projects__info column-mobile--12 column--8">
           <img class="projects__logo projects__logo--gk" src="../assets/gk_logo.png" />
@@ -51,7 +51,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="column--4 projects__offset">
+        <div class="column--2 projects__offset">
         </div>
         <div class="projects__info column-mobile--12 column--8">
           <div class="projects__logo projects__logo--rms"></div>

@@ -1,9 +1,16 @@
 .skills {
   margin: 100px auto 0 auto;
+  max-width: 40%;
 }
 
-@include media(tablet, '') {
+@include media('', tablet) {
   .skills {
-    width: 40%;
+    max-width: 60%;
+  }
+}
+
+@include media('', mobile) {
+  .skills {
+    max-width: 100%;
   }
 }

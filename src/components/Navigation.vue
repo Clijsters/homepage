@@ -1,22 +1,24 @@
 <template>
   <header class="container--fluid navigation">
     <ul class="row navigation__list">
-      <li class="column--8 column-mobile--4 column-tablet--4 navigation__item navigation__item--first">
-        <a href="#" :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#app' }">cfischer</a>
+      <li class="column--6 column-mobile--4 column-tablet--4 navigation__item navigation__item--first">
+        <a href="#" class='navigation__link' :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#app' }">cfischer</a>
+      </li>
+      <li class="column--1 navigation__item--offset">
       </li>
       <li class="column--1 column-mobile--2 column-tablet--2 navigation__item">
-        <a href="#" :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#about' }">{{ $t("navigation.about") }}</a>
+        <a href="#" class='navigation__link' :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#about' }">{{ $t("navigation.about") }}</a>
       </li>
       <li class="column--1 column-mobile--2  column-tablet--2 navigation__item">
-        <a href="#" :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#skills', offset: -100 }">{{ $t("navigation.skills") }}</a>
-      </li>
-      <!-- <li class="navigation__item">
-        <a href="#" :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#work', offset: -40 }">{{ $t("navigation.work") }}</a>
-      </li> -->
-      <li class="column--1 column-mobile--2  column-tablet--2 navigation__item">
-        <a href="#" :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#contact', offset: -40 }">{{ $t("navigation.contact") }}</a>
+        <a href="#" class='navigation__link' :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#skills', offset: -100 }">{{ $t("navigation.skills") }}</a>
       </li>
       <li class="column--1 column-mobile--2  column-tablet--2 navigation__item">
+        <a href="#" class='navigation__link' :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#projects', offset: -100 }">{{ $t("navigation.work") }}</a>
+      </li>
+      <li class="column--1 column-mobile--2  column-tablet--2 navigation__item">
+        <a href="#" class='navigation__link' :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#contact', offset: -40 }">{{ $t("navigation.contact") }}</a>
+      </li>
+      <li class="column--1 column-mobile--2  column-tablet--2 navigation__item navigation__item--last">
         <button @click="changeLanguage"
           :class="[{ 'navigation__change-language--en': isEnglish },
           { 'navigation__change-language--de': isGerman }, 'navigation__change-language']">
@@ -47,8 +49,8 @@ export default {
       Vue.config.lang = Vue.config.lang === 'en' ? 'de' : 'en'
     },
     onScroll() {
-      const rect = document.querySelector('.about').getBoundingClientRect()
-      this.isDark = rect.bottom <= 60
+      // const rect = document.querySelector('.about').getBoundingClientRect()
+      // this.isDark = rect.bottom <= 60
     }
   },
   mounted() {

@@ -1,14 +1,24 @@
 .navigation {
-  padding-top: 45px;
+  padding: 20px 10px 20px 10px;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 10000;
+  background-color: $color2;
 
-  @media (min-width: 400px) {
+  @include media ('', mobile) {
     .navigation__item--first {
-      padding: 0 0 0 20px;
+      padding: 0;
+    }
+    .navigation__item--last {
+      margin: -5px 0 0 0;
+    }
+  }
+
+  @include media ('', tablet) {
+    .navigation__item--offset {
+      display: none;
     }
   }
 
@@ -19,15 +29,19 @@
     // display: flex; (breaks align right)
   }
 
-  &__item {
+  &__link {
     transition: color .35s ease-in-out;
-    color: $color6;
 
     &:hover {
       color: $color5;
     }
+  }
+
+  &__item {
+    color: $color6;
 
     &--first {
+      padding: 0 0 0 20px;
       text-align: left;
     }
 

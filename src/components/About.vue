@@ -1,7 +1,9 @@
 <template>
   <section id="about" class="about container--fluid">
-    <div class="about__container container--fluid">
+    <div class="about__container__hello container--fluid">
       <h2 class="about__hello">{{ $t("about.hello") }}</h2>
+    </div>
+    <div class="about__container container--fluid">
       <p class="about__info1">{{ $t("about.info1") }}</p>
 
       <ul class="about__social row">

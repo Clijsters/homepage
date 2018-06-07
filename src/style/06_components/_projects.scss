@@ -1,0 +1,87 @@
+.projects {
+  margin: 100px 0 0 0;
+
+  &__link {
+    color: $color2;
+    transition: all .35s ease-in-out;
+
+    &:hover {
+      color: darken($color2, 10%);
+      transform: scale(1.01, 1.05);
+    }
+  }
+
+  &__logo {
+    max-width: 240px;
+    height: 80px;
+
+    &--rms {
+      height: 60px;
+      margin: 0 0 20px 0;
+      background: url(../assets/rmsviewer_logo.png) no-repeat left center;
+      background-position: -875px -181px;
+      background-color: $color2;
+      border-radius: 10px;
+    }
+
+    &--gk {
+      height: 32px !important;
+      margin: 0 0 20px 0;
+    }
+
+    &--magine {
+      height: 50px !important;
+      margin: 0 0 20px 0;
+    }
+
+    &--man {
+      margin: 0 0 0 -15px;
+    }
+  }
+
+  &__info {
+    text-align: left;
+    max-width: 40%;
+    margin: 0 0 50px 0;
+  }
+
+  @include media('', mobile) {
+    &__offset {
+      display: none;
+    }
+
+    &__logo {
+      max-width: 160px;
+      height: 60px;
+    }
+
+    &__info {
+      max-width: 100%;
+    }
+  }
+
+  @include media(mobile, tablet) {
+    &__offset {
+      width: 20%;
+    }
+
+    &__info {
+      max-width: 80%;
+    }
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 22px;
+    margin: 0 0 15px 0;
+    color: $color2;
+  }
+
+  h4 {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+}

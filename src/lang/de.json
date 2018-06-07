@@ -2,7 +2,7 @@
   "navigation": {
     "about": "about",
     "skills": "skills",
-    "work": "projekte",
+    "work": "arbeit",
     "contact": "kontakt"
   },
   "hero": {
@@ -17,6 +17,9 @@
   },
   "skills": {
     "heading": "Fähigkeiten"
+  },
+  "projects": {
+    "heading": "Projekte"
   },
   "contact": {
     "heading": "Brauchen Sie Verstärkung?",

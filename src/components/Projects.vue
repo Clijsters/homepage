@@ -7,11 +7,11 @@
         </div>
         <div class="projects__info column-mobile--12 column--8">
           <img class="projects__logo" src="../assets/outfittery_logo.svg" />
-          <a href="https://outfittery.com/"><h3 class="projects__link">Outfittery</h3></a>
+          <a href="https://outfittery.de/"><h3 class="projects__link">Outfittery</h3></a>
           <h4>Senior Frontend Engineer, Oct 2017 - present</h4>
           <h4>Berlin, Germany</h4>
           <p>Outfittery is a curated fashion shopping service for men.</p>
-          <p>Currently my responsibilities include strategical technical planning, continuous development and maintenance of the product, technical leadership for customer facing applications, interviewing frontend and QA engineers as well as filling and prioritizing the backlog with product managers. Besides continuously improving the product and code base my key achievements are planning the migration to React, establishing a frontend user group, set up a JS style guide in our projects, enabling the design team to create a design guide and introducing a new careers page in collaboration with contractors.</p>
+          <p>Currently my responsibilities include strategical technical planning, continuous development and maintenance of the product, technical leadership for customer facing applications, interviewing frontend and QA engineers as well as filling and prioritizing the backlog with product managers. Besides continuously improving the product and code base my key achievements are planning the migration to React, establishing a frontend user group, setting up a JS style guide in our projects, enabling the design team to create a design guide and introducing a new careers page in collaboration with contractors.</p>
         </div>
       </div>
       <div class="row">
@@ -19,7 +19,7 @@
         </div>
         <div class="projects__info column-mobile--12 column--8">
           <img class="projects__logo projects__logo--magine" src="../assets/magine_logo.svg" />
-          <a href="https://magine.com/"><h3 class="projects__link">Magine TV</h3></a>
+          <a href="https://de.magine.com/"><h3 class="projects__link">Magine TV</h3></a>
           <h4>Software Engineer, Oct 2016 - Sep 2017</h4>
           <h4>Berlin, Germany</h4>
           <p>Magine TV is an online television streaming platform.</p>
@@ -34,7 +34,7 @@
           <a href="https://www.8man.com/en"><h3 class="projects__link">8MAN</h3></a>
           <h4>Software Engineer, Nov 2015 - Aug 2016</h4>
           <h4>Berlin, Germany</h4>
-          <p>8MAN is an access rights management enterprise solution</p>
+          <p>8MAN is an access rights management enterprise solution.</p>
           <p>This project gave me the opportunity to build this technically cutting edge web application. I made major technology and design decisions. Changes I introduced include rewriting and porting unstructured JavaScript code to TypeScript, unit testing with Jasmine and dropping the previous frontend framework in favor of Angular 2. I was also involved in the development of the C# ASP.NET Web API endpoints.</p>
         </div>
       </div>

@@ -23,7 +23,7 @@
           <h4>Software Engineer, Oct 2016 - Sep 2017</h4>
           <h4>Berlin, Germany</h4>
           <p>Magine TV is an online television streaming platform.</p>
-          <p>In this role I ensured that the code base can live up to latest web standards and best practices. This included upgrading the AngularJS version, rewriting most services and introducing Webpack and SCSS. I coded a majority of the new landing page on which users watch TV. I was able to plan, manage the process and develop a new help center with our customer support. The marketing teams could rely on me to get help with IT questions, the maintenance of the Wordpress CMS and respective code changes.</p>
+          <p>In this role I ensured that the code base can live up to latest web standards and best practices. This included upgrading the AngularJS version, rewriting most services and introducing Webpack and SCSS. I coded a majority of the new landing page on which users watch TV. I was able to plan and manage the process of developing and releasing a new help center with our customer support. The marketing teams could rely on me to get help with IT questions, the maintenance of the Wordpress CMS and respective code changes.</p>
         </div>
       </div>
       <div class="row">

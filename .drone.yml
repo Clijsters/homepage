@@ -1,13 +1,15 @@
 pipeline:
-  build:
+  install:
     image: node:7.9
     commands:
-      - echo "build - ${DRONE_BUILD_NUMBER}"
       - apt-get install -y bzip2
       - npm cache clean --force
       - npm install phantomjs-prebuilt --ignore-scripts
       - npm install chromedriver --chromedriver-cdnurl=http://chromedriver.storage.googleapis.com
       - npm install
+  build:
+    image: node:7.9
+    commands:
       - npm run build
   publish:
     image: plugins/gcs
@@ -16,10 +18,7 @@ pipeline:
     ignore: bin/*
     acl:
       - allUsers:READER
-    #gzip: js,css,html
     cache_control: public,max-age=3600
-    #metadata:
-      #x-goog-project-id: 22424934169
     token: {
       "type": "service_account",
       "project_id": "acoustic-portal-212110",
@@ -32,6 +31,3 @@ pipeline:
       "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
       "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcs-admin%40acoustic-portal-212110.iam.gserviceaccount.com"
     }
-    #secrets:
-    #  - source: 00b4903a97b07ad92a60a2d34c18795de5172081c739617506e3d9c2e923a093
-    #    target: AIzaSyA6G72sKlsPRoTPVH0Oz6oZXGN7kXMKG6Q

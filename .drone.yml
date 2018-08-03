@@ -1,6 +1,6 @@
 pipeline:
   frontend:
-    image: node
+    image: node:7.9
     commands:
       - npm install
       - npm run build

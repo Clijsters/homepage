@@ -2,12 +2,12 @@ pipeline:
   frontend:
     image: node:7.9
     commands:
-      - sudo apt-get install -y bzip2
-      - sudo npm cache clean --force
-      - sudo npm install phantomjs-prebuilt --ignore-scripts
-      - sudo npm install chromedriver --chromedriver-cdnurl=http://chromedriver.storage.googleapis.com
-      - sudo npm install --verbose
-      - sudo npm run build
+      - apt-get install -y bzip2
+      - npm cache clean --force
+      - npm install phantomjs-prebuilt --ignore-scripts
+      - npm install chromedriver --chromedriver-cdnurl=http://chromedriver.storage.googleapis.com
+      - npm install
+      - npm run build
   gcs:
     image: plugins/gcs
     source: dist

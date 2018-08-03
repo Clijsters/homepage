@@ -1,3 +1,5 @@
+@import '../01_settings/_breakpoints';
+
 .container {
   margin: 0 auto;
   width: getMapVal($breakpoints, max) + px;

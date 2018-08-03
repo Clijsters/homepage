@@ -2,9 +2,24 @@ pipeline:
   frontend:
     image: node:7.9
     commands:
-      - apt-get install -y bzip2
-      - npm cache clean --force
-      - npm install phantomjs-prebuilt --ignore-scripts
-      - npm install chromedriver --chromedriver-cdnurl=http://chromedriver.storage.googleapis.com
-      - npm install --verbose
-      - npm run build
+      - sudo apt-get install -y bzip2
+      - sudo npm cache clean --force
+      - sudo npm install phantomjs-prebuilt --ignore-scripts
+      - sudo npm install chromedriver --chromedriver-cdnurl=http://chromedriver.storage.googleapis.com
+      - sudo npm install --verbose
+      - sudo npm run build
+  gcs:
+    image: plugins/gcs
+    source: dist
+    target: bucket/build-artifacts-6784/
+    ignore: bin/*
+    acl:
+      - allUsers:READER
+    #gzip: js,css,html
+    cache_control: public,max-age=3600
+    #metadata:
+      #x-goog-project-id: 22424934169
+    token: AIzaSyA6G72sKlsPRoTPVH0Oz6oZXGN7kXMKG6Q
+    #secrets:
+    #  - source: 00b4903a97b07ad92a60a2d34c18795de5172081c739617506e3d9c2e923a093
+    #    target: AIzaSyA6G72sKlsPRoTPVH0Oz6oZXGN7kXMKG6Q

@@ -6,7 +6,7 @@ pipeline:
       - npm cache clean --force
       - npm install phantomjs-prebuilt --ignore-scripts
       - npm install chromedriver --chromedriver-cdnurl=http://chromedriver.storage.googleapis.com
-      - npm install
+      - npm ci
   build:
     image: node:7.9
     commands:

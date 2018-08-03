@@ -1,6 +1,6 @@
 pipeline:
   install:
-    image: node:7.9
+    image: node:10.8
     commands:
       - apt-get install -y bzip2
       - npm cache clean --force
@@ -8,7 +8,7 @@ pipeline:
       - npm install chromedriver --chromedriver-cdnurl=http://chromedriver.storage.googleapis.com
       - npm ci
   build:
-    image: node:7.9
+    image: node:10.8
     commands:
       - npm run build
   publish:

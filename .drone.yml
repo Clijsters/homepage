@@ -3,5 +3,6 @@ pipeline:
     image: node:7.9
     commands:
       - apt-get install -y bzip2
+      - npm install phantomjs-prebuilt --ignore-scripts
       - npm install
       - npm run build

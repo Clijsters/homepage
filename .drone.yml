@@ -34,4 +34,9 @@ pipeline:
     webhook: https://hooks.slack.com/services/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
     channel: build-pipeline
     icon_url: https://storage.googleapis.com/build-artifacts-6784/drone-io.png
-    template: "*Build {{build.status}}*\n*Drone* <#{{build.number}}|{{build.link}}>\n*Github* https://github.com/{{repo.owner}}/{{repo.name}}/{{build.commit}}\n*Branch* {{build.branch}}\n*Commiter {{build.author}}*"
+    template: >
+      *Build {{build.status}}*\n
+      *Drone* <#{{build.number}}|{{build.link}}>\n
+      *Github* <{{repo.owner}}/{{repo.name}}|https://github.com/{{repo.owner}}/{{repo.name}}/commit/{{build.commit}}>\n
+      *Branch* {{build.branch}}\n
+      *Commiter* {{build.author}}

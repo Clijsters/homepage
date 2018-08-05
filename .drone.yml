@@ -35,3 +35,9 @@ pipeline:
     image: plugins/slack
     webhook: https://hooks.slack.com/services/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
     channel: build-pipeline
+    username: drone
+    icon_url: https://00e9e64bac4d85c8dae057d29c037bb0075999c276b783e6c0-apidata.googleusercontent.com/download/storage/v1/b/build-artifacts-6784/o/drone-io.png?qk=AD5uMEs62Ef4GLr1azTcyQcy6X0Jl434VbSQae7LTdy2ZorMk_WxtIU1ASYncwK_oO5RQXJq6xuRio07_K3LhS_Elq6uLDbBRZFspVv-p3KeoM3oevOdwNhnND47ZeL3htN9FW9-gKzTSFJm6ENeNSr2WzOxeoNduVizyJdtnfM26bk10iSoXSNOBTJPzNryMN1rinDQP0IzVma0m1L-ykoIqEECoHs7YO49LOA4Zbwb3Zyts59KTC6qCUfF6jAqqT6Dct0TgL2NdhCrFxVkC0NfHvrKHlh3EyqyIp8BjPGLMISvRLLwR-1TZ-Otc_D9pmjTGHd8YTMriG0JsyPLULxrdz1InQMKCm3ZOzqDHt8SDmp-qPBtUgTaBQrmfgtsSdbmNPuZhQD9ohNRo4GTbCpvt7wU2FGF7uKEET6j331LPWOjMDR1EBJtiSd1q7PHmkIJa7dGn2s7Fgp6fcS9eanTEZZKW_ORIqksG-dBFDsidLLplXVKyj1LO9CQ2jxmkJ5DJrOnhQSVppNqub_p2KVjGMvNxElOd7nlwX5-vvdNmvxVguJv708I55lRS5qAexFST3HM2_TYb4dOSbYrxWrdaov42c1MMAOzo_m7R26iiKxDe8R-8tEBmJO3ge2PsOGKyqfu1Ac8zRs7cnQvUgH7y3DY9tYQgiAOaHzDKvIfnyctZviKw8KbJOOnec-4v-IcM-2a_vJbv5XCs89WVR28-ExNsG_i2BgznkYjCUa1asNZ6ehaM34
+    template: >
+      Build {{build.status}} #{{build.number}}
+      Branch {{build.branch}}
+      {{build.link}}

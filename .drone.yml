@@ -31,3 +31,7 @@ pipeline:
       "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
       "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcs-admin%40acoustic-portal-212110.iam.gserviceaccount.com"
     }
+  slack:
+    image: plugins/slack
+    webhook: https://hooks.slack.com/services/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
+    channel: build-pipeline

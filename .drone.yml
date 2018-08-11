@@ -35,3 +35,9 @@ pipeline:
     channel: build-pipeline
     when:
       status: [ failure, success]
+  docker:
+    commands:
+      - docker build -t homepage .
+      - docker tag homepage:latest eu.gcr.io/acoustic-portal-212110/homepage:latest
+      - docker push eu.gcr.io/acoustic-portal-212110/homepage:latest
+      - docker rmi homepage:latest

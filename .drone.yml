@@ -19,9 +19,9 @@ pipeline:
   deploy:
     image: appleboy/drone-ssh
     pull: true  # always pull the latest version of the `drone-ssh` plugin
-    host: $HOST
-    user: $USER
-    key: $SSH_KEY
+    host: ${HOST}
+    user: ${USER}
+    key: ${SSH_KEY}
     port: 22
     pull: true
     command_timeout: 180

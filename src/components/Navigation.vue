@@ -7,13 +7,13 @@
       <li class="column--1 navigation__item--offset">
       </li>
       <li class="column--1 column-mobile--2 column-tablet--2 navigation__item">
-        <a href="#" class='navigation__link' :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#about', offset: -70 }">{{ $t("navigation.about") }}</a>
+        <a href="#" class='navigation__link' :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#about', offset: -40 }">{{ $t("navigation.about") }}</a>
       </li>
       <li class="column--1 column-mobile--2  column-tablet--2 navigation__item">
-        <a href="#" class='navigation__link' :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#skills', offset: -170 }">{{ $t("navigation.skills") }}</a>
+        <a href="#" class='navigation__link' :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#skills', offset: -140 }">{{ $t("navigation.skills") }}</a>
       </li>
       <li class="column--1 column-mobile--2  column-tablet--2 navigation__item">
-        <a href="#" class='navigation__link' :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#projects', offset: -170 }">{{ $t("navigation.work") }}</a>
+        <a href="#" class='navigation__link' :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#projects', offset: -140 }">{{ $t("navigation.work") }}</a>
       </li>
       <li class="column--1 column-mobile--2  column-tablet--2 navigation__item">
         <a href="#" class='navigation__link' :class="{ 'navigation__item--dark': isDark }" v-scroll-to="{ el: '#contact', offset: -110 }">{{ $t("navigation.contact") }}</a>

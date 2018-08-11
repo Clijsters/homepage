@@ -33,3 +33,5 @@ pipeline:
     image: plugins/slack
     webhook: https://hooks.slack.com/services/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
     channel: build-pipeline
+    when:
+      status: [ failure, success]

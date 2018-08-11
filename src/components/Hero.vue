@@ -5,7 +5,7 @@
         <h1 class="hero__hello">{{ $t("hero.engineer") }}</h1>
         <p class="hero__info1">{{ $t("hero.info1") }}</p>
         <!-- <p class="hero__info2">{{ $t("hero.info2") }}</p> -->
-        <a class="hero__more" href="#" v-scroll-to="{ el: '#about', offset: -70 }">
+        <a class="hero__more" href="#" v-scroll-to="{ el: '#about', offset: -40 }">
           <p>{{ $t("hero.more") }}</p>
           <span class="hero__arrow"></span>
         </a>

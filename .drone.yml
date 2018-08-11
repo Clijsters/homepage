@@ -16,6 +16,22 @@ pipeline:
       "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
       "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcs-admin%40acoustic-portal-212110.iam.gserviceaccount.com"
     }
+  deploy:
+    image: appleboy/drone-ssh
+    pull: true  # always pull the latest version of the `drone-ssh` plugin
+    host: $HOST
+    user: $USER
+    key: $SSH_KEY
+    port: 22
+    pull: true
+    command_timeout: 180
+    script:
+      - cd /home/ubuntu/deploy
+      - sh homepage.sh
+    secrets: [ host, user, ssh_key ]
+    when:
+      # branch: master
+      event: push
   slack:
     image: plugins/slack
     webhook: https://hooks.slack.com/services/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

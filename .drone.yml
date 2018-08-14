@@ -18,10 +18,6 @@ pipeline:
     }
   deploy:
     image: appleboy/drone-ssh
-    pull: true  # always pull the latest version of the `drone-ssh` plugin
-    host: ${HOST}
-    user: ${USER}
-    key: ${SSH_KEY}
     port: 22
     pull: true
     command_timeout: 180
@@ -33,7 +29,7 @@ pipeline:
       - sudo systemctl start homepage.service
       - sudo systemctl status homepage.service
       - docker ps
-    secrets: [ host, user, ssh_key ]
+    secrets: [ ssh_host, ssh_username, ssh_key ]
     when:
       # branch: master
       event: push

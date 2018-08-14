@@ -26,8 +26,13 @@ pipeline:
     pull: true
     command_timeout: 180
     script:
+      - set -eu
       - cd /home/ubuntu/deploy
-      - sh homepage.sh
+      - sudo systemctl stop homepage.service
+      - sudo docker pull eu.gcr.io/acoustic-portal-212110/homepage:latest
+      - sudo systemctl start homepage.service
+      - sudo systemctl status homepage.service
+      - docker ps
     secrets: [ host, user, ssh_key ]
     when:
       # branch: master

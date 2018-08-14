@@ -30,7 +30,7 @@ pipeline:
       - docker ps
     secrets: [ ssh_host, ssh_username, ssh_key ]
     when:
-      # branch: master
+      branch: master
       event: push
   slack:
     image: plugins/slack

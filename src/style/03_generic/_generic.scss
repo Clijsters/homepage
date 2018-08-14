@@ -1,5 +1,6 @@
 // normalize
-@import 'vendor/normalize';
+@import '../01_settings/_fonts';
+@import '../vendor/normalize';
 
 // load custom font (all but ie & edge)
 // TODO(cfischer): load custom font for ie & edge

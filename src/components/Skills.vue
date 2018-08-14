@@ -63,12 +63,19 @@
           },
           scales: {
             xAxes: [{
+              gridLines: {
+                display: false
+              },
               barPercentage: 1,
               categoryPercentage: 0.6
             }],
             yAxes: [{
+              gridLines: {
+                display: false
+              },
               ticks: {
                 display: false,
+                min: 0,
                 max: 1
               },
               scaleLabel: {

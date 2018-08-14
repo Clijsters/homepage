@@ -18,17 +18,11 @@ pipeline:
     }
   deploy:
     image: appleboy/drone-ssh
-    host: ${SSH_HOST}
-    username: ${SSH_USERNAME}
-    key: ${SSH_KEY}
     port: 22
     pull: true
     command_timeout: 180
     script:
       - set -eu
-      - echo ${SSH_HOST}
-      - echo ${SSH_USERNAME}
-      - echo ${SSH_KEY}
       - sudo systemctl stop homepage.service
       - sudo docker pull eu.gcr.io/acoustic-portal-212110/homepage:latest
       - sudo systemctl start homepage.service

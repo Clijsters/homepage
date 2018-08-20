@@ -16,19 +16,18 @@
 
   &__logo {
     max-width: 240px;
-    height: 80px;
+    height: 70px;
 
     &--rms {
       height: 60px;
       margin: 0 0 20px 0;
-      background: url(../assets/rmsviewer_logo.png) no-repeat left center;
-      background-position: -875px -181px;
+      background: url(../assets/rmsviewer_logo.png) no-repeat 10px center;
       background-color: $color2;
       border-radius: 10px;
     }
 
     &--magine {
-      height: 50px !important;
+      height: 40px !important;
       margin: 0 0 20px 0;
     }
 

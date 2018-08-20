@@ -5,12 +5,17 @@
   margin: 100px 0 0 0;
 
   &__link {
+    display: block;
+  }
+
+  &__header {
+    max-width: 150px;
     color: $color2;
-    transition: all .35s ease-in-out;
+    transition: all .25s ease-in-out;
 
     &:hover {
-      color: darken($color2, 10%);
-      transform: scale(1.01, 1.05);
+      color: lighten($color2, 10%);
+      transform: scale(1.03, 1.06);
     }
   }
 

@@ -11,13 +11,13 @@
 </template>
 
 <script>
-import navigation from 'components/Navigation'
-import hero from 'components/Hero'
-import about from 'components/About'
-import skills from 'components/Skills'
-import projects from 'components/Projects'
-import contact from 'components/Contact'
-import foot from 'components/Foot'
+import navigation from '@/components/Navigation'
+import hero from '@/components/Hero'
+import about from '@/components/About'
+import skills from '@/components/Skills'
+import projects from '@/components/Projects'
+import contact from '@/components/Contact'
+import foot from '@/components/Foot'
 export default {
   name: 'app',
   components: {

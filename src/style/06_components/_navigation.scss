@@ -35,19 +35,6 @@
   }
 
   &__item {
-    color: $color6;
-    width: 11%;
-
-    &--first {
-      width: 50%;
-      padding: 0 0 0 20px;
-      text-align: left;
-    }
-
-    &--last {
-      width: 6%;
-    }
-
     &--dark {
       transition: color .35s ease-in-out;
       color: $color5;
@@ -58,7 +45,6 @@
     }
   }
 
-  // TODO(cfischer): fix button in ff, ie, edge
   &__change-language {
     float: left;
     width: 30px;
@@ -104,10 +90,13 @@
   list-style: none;
   overflow: hidden;
   background-color: $color2;
+  margin: 0;
+  padding: 0 10px;
 }
 
 .header li {
   width: 100%;
+  margin: 0;
 }
 
 .header li:last-child {

@@ -1,3 +1,4 @@
+<script>
 import { Bar } from 'vue-chartjs'
 
 export default {
@@ -7,3 +8,4 @@ export default {
     this.renderChart(this.chartData, this.options)
   }
 }
+</script>

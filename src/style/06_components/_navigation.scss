@@ -25,15 +25,9 @@
     }
   }
 
-  &__list {
-    // margin: 0 40px;
-    // text-align: right;
-    // TODO(cfischer): fix inline space between elements
-    // display: flex; (breaks align right)
-  }
-
   &__link {
     transition: color .35s ease-in-out;
+    display: block;
 
     &:hover {
       color: $color5;
@@ -42,10 +36,16 @@
 
   &__item {
     color: $color6;
+    width: 11%;
 
     &--first {
+      width: 50%;
       padding: 0 0 0 20px;
       text-align: left;
+    }
+
+    &--last {
+      width: 6%;
     }
 
     &--dark {

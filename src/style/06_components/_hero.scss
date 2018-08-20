@@ -1,7 +1,8 @@
 @import '../01_settings/_colors';
 
 .hero {
-  background: no-repeat center/100% url('../assets/cfischer_header.jpg');
+  background: no-repeat url('../assets/cfischer_header.jpg');
+  background-position: center top;
   // background-position-x: 0px;
   background-size: cover;
   display: block;

@@ -19,10 +19,7 @@ Object.keys(locales).forEach((lang) => {
   Vue.locale(lang, locales[lang])
 })
 
-/* eslint-disable no-new */
 new Vue({
-  el: '#app',
   router,
-  template: '<App/>',
-  components: { App }
-})
+  render: f => f(App)
+}).$mount('#app');

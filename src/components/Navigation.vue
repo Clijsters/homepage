@@ -18,8 +18,8 @@
       </li>
       <li>
         <button @click="changeLanguage"
-          :class="[{ 'navigation__change-language--en': isEnglish },
-          { 'navigation__change-language--de': isGerman }, 'navigation__change-language']">
+          :class="[{ 'navigation__change-language--de': isEnglish },
+          { 'navigation__change-language--en': isGerman }, 'navigation__change-language']">
         </button>
       </li>
     </ul>

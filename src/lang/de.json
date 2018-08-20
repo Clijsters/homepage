@@ -1,8 +1,8 @@
 {
   "navigation": {
-    "about": "about",
-    "skills": "skills",
-    "work": "arbeit",
+    "about": "über mich",
+    "skills": "erfahrung",
+    "work": "projekte",
     "contact": "kontakt"
   },
   "hero": {
@@ -13,10 +13,10 @@
   },
   "about": {
     "hello": "Hallo, ich bin Christian Fischer.",
-    "info1": "Ich arbeite seit über 7 Jahren als Software Engineer. In dieser Zeit habe ich einen sehr guten Überblick der Industrielandschaft gewonnen und dabei mit vielen Technologien und Programmiersprachen gearbeitet. Ich habe mich auf Frontend Themen wie JavaScript, React, Angular, HTML, CSS, TypeScript spezialisiert. Außerdem bilde ich mein Wissen zu Teamstrukruten, Management und allgemeinen Themen in der Softwareentwicklung stetig weiter."
+    "info1": "Ich arbeite seit über 7 Jahren als Software Engineer. In dieser Zeit habe ich einen sehr guten Überblick in der Industrielandschaft gewonnen und dabei mit vielen Technologien und Programmiersprachen gearbeitet. Ich habe mich auf Frontend Themen wie JavaScript, React, Angular, HTML, CSS, TypeScript spezialisiert. Außerdem bilde ich mein Wissen zu Teamstrukruten, Management und allgemeinen Themen der Softwareentwicklung stetig weiter."
   },
   "skills": {
-    "heading": "Fähigkeiten"
+    "heading": "Erfahrung"
   },
   "projects": {
     "heading": "Projekte"
@@ -26,7 +26,7 @@
     "info": "Tretten Sie in Kontakt."
   },
   "footer": {
-    "withLove": "Handgemacht mit",
+    "withLove": "Handarbeit mit",
     "copyright": "&copy; 2018 Christian Fischer. Alle Rechte vorbehalten."
   }
 }

@@ -7,7 +7,7 @@
         </div>
         <div class="projects__info column-mobile--12 column--8">
           <img class="projects__logo" src="../assets/outfittery_logo.svg" />
-          <h3 class="projects__header"><a href="https://outfittery.de/" class="projects__link">Outfittery</a></h3>
+          <h3 class="projects__header"><a href="https://outfittery.de/" class="projects__link" target="_blank">Outfittery</a></h3>
           <h4>Senior Frontend Engineer, Oct 2017 - present</h4>
           <h4>Berlin, Germany</h4>
           <p>Outfittery is a curated fashion shopping service for men.</p>
@@ -19,7 +19,7 @@
         </div>
         <div class="projects__info column-mobile--12 column--8">
           <img class="projects__logo projects__logo--magine" src="../assets/magine_logo.svg" />
-          <h3 class="projects__header"><a href="https://de.magine.com/" class="projects__link">Magine TV</a></h3>
+          <h3 class="projects__header"><a href="https://de.magine.com/" class="projects__link" target="_blank">Magine TV</a></h3>
           <h4>Software Engineer, Oct 2016 - Sep 2017</h4>
           <h4>Berlin, Germany</h4>
           <p>Magine TV is an online television streaming platform.</p>
@@ -31,7 +31,7 @@
         </div>
         <div class="projects__info column-mobile--12 column--8">
           <img class="projects__logo projects__logo--man" src="../assets/8man_logo.png" />
-          <h3 class="projects__header"><a href="https://www.8man.com/en" class="projects__link">8MAN</a></h3>
+          <h3 class="projects__header"><a href="https://www.8man.com/en" class="projects__link" target="_blank">8MAN</a></h3>
           <h4>Software Engineer, Nov 2015 - Aug 2016</h4>
           <h4>Berlin, Germany</h4>
           <p>8MAN is an access rights management enterprise solution.</p>
@@ -43,7 +43,7 @@
         </div>
         <div class="projects__info column-mobile--12 column--8">
           <img class="projects__logo projects__logo--gk" src="../assets/gk_logo.png" />
-          <h3 class="projects__header"><a href="https://glueckkanja.com/" class="projects__link">CloudBoot</a></h3>
+          <h3 class="projects__header"><a href="https://glueckkanja.com/" class="projects__link" target="_blank">CloudBoot</a></h3>
           <h4>Software Engineer, Jan 2015 - Sep 2015</h4>
           <h4>Frankfurt Area, Germany</h4>
           <p>CloudBoot enables operating system deployment over the internet.</p>
@@ -55,7 +55,7 @@
         </div>
         <div class="projects__info column-mobile--12 column--8">
           <div class="projects__logo projects__logo--rms"></div>
-          <h3 class="projects__header"><a href="http://www.rmsviewer.com/" class="projects__link">RMS Viewer</a></h3>
+          <h3 class="projects__header"><a href="http://www.rmsviewer.com/" class="projects__link" target="_blank">RMS Viewer</a></h3>
           <h4>Software Engineer, Feb 2012 - Feb 2015</h4>
           <h4>Frankfurt Area, Germany</h4>
           <p>RMS Viewer extends Windows Rights Management on iOS, Android, Windows RT and BlackBerry devices for mobile data security.</p>

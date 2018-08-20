@@ -25,15 +25,9 @@
     }
   }
 
-  &__list {
-    // margin: 0 40px;
-    // text-align: right;
-    // TODO(cfischer): fix inline space between elements
-    // display: flex; (breaks align right)
-  }
-
   &__link {
     transition: color .35s ease-in-out;
+    display: block;
 
     &:hover {
       color: $color5;
@@ -41,13 +35,6 @@
   }
 
   &__item {
-    color: $color6;
-
-    &--first {
-      padding: 0 0 0 20px;
-      text-align: left;
-    }
-
     &--dark {
       transition: color .35s ease-in-out;
       color: $color5;
@@ -58,10 +45,11 @@
     }
   }
 
-  // TODO(cfischer): fix button in ff, ie, edge
   &__change-language {
+    float: left;
     width: 30px;
     height: 30px;
+    margin: 0 0 10px 20px;
     background: no-repeat center/100 url(../assets/usa_flag.svg);
     vertical-align: bottom;
     transition: all .35s ease, background-image ease 0s;
@@ -77,5 +65,170 @@
     &--de {
       background-image: url(../assets/germany_flag.svg);
     }
+
+    @media (min-width: 48em) {
+      margin: 0;
+      float: none;
+    }
+  }
+}
+
+/* header */
+
+.header {
+  color: $color6;
+  background-color: $color2;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 11000;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: $color2;
+  padding: 0 10px;
+}
+
+.header li {
+  width: 100%;
+  margin: 0;
+}
+
+.header li:last-child {
+  line-height: 30px;
+}
+
+.header li a {
+  display: block;
+  text-align: left;
+  padding: 15px 20px;
+  // border-right: 1px solid #f4f4f4;
+  text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  // background-color: #f4f4f4;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  // font-size: 2em;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: $color6;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: $color6;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 300px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header {
+    box-shadow: none;
+  }
+  .header ul {
+    // float: none;
+  }
+  .header li {
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    min-width: 10%;
+    margin: 0 10px;
+  }
+  .header li:last-child {
+    width: 4%;
+    min-width: 4%;
+  }
+  .header li a {
+    display: inline-block;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .header .menu {
+    padding: 0 30px 0 0;
+    clear: none;
+    max-height: none;
+    text-align: right;
+  }
+  .header .menu-icon {
+    display: none;
   }
 }

@@ -1,5 +1,5 @@
 pipeline:
-  build:
+  release-master:
     image: plugins/gcr
     repo: acoustic-portal-212110/homepage
     registry: eu.gcr.io
@@ -16,19 +16,38 @@ pipeline:
       "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
       "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcs-admin%40acoustic-portal-212110.iam.gserviceaccount.com"
     }
+    when:
+      branch: master
+      event: push
+  release-staging:
+    image: plugins/gcr
+    repo: acoustic-portal-212110/homepage
+    registry: eu.gcr.io
+    tags: staging
+    json_key: {
+      "type": "service_account",
+      "project_id": "acoustic-portal-212110",
+      "private_key_id": "16958d9c2e1d2bff48d3fd7b8cc4a94255ff5288",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDPCdhfZIU7teW/\nvzIiHW7xzI0WnZ5O3ssDJmBjktbZ1817pp67ys4bxRszHIrWAWypB4Q/C9V20IM7\nEMknknWFLuIt6vMSYPAV8xh6KdNCpH4R0pcoR5CqixjP7iqYvT1MzytITy7tQaD4\n7//abqa8uaNV8LwS4/2AsKYbzLC+rl2SUGzQQtRpMUb7LYIhA2Rk+rqrW3jSvhTR\njr+yz12mj2eleDU9XmZIdk2iT4FOHPd79bIqZgPigOY74quGOrIjNms024eGAhRl\nYqjXZWutubIjrB0E8BSNU0vrhY+8hRKsWFvgSnbGV6O/vQ0AfPrZkp28vw1AYNr+\ntOxEaMqxAgMBAAECggEAAJSSHBNYWcO05F8/ylobhQyUx9T9htJSTpy+uAIR0twW\nC1Q7B+2lu1dyOp09qOOpt1q/ahypVqXMkQpHIWf5pxvLvm31DDlEFwWpTQddZvI2\ngxbcaFx0qVEOQDVLqTBc8dW3VPgEL/NSBTyep/ENNoR33XOZLV2LqNQ7RPhDYGd0\nAlBjjK+fXLXMVPBI5cREHkyTmA8kvVi9pq6hk/9sdCftYEx1HV2G46WQXsnUENSn\nCwse8rFu6cPcssq/Is96GRzsSVHOYaSkw3ftitrFA7/5O/6jC/MfiGkz9DgeuiVV\nT7QWD18MuRe6epEbTWr23guDITqt3JmkNya9r03bGQKBgQD9l33Th1ae19SwiZKT\nNztjebOQ7bmW4Mf5X7bvRYTGrjhN1eaXhHXk1Y9xWDdUyWakrjRJaUxCXWGpFr/T\nszvUatPKLe6cFS69r0gEzSqXKufPMEWWJtdGk2VczpqXJsRmXye7AcFSkMZc6ufR\np2i/l1QXpX0DELftqOLqtevCOQKBgQDRAS17vhYfKAtMjESW7yCYBjzrMSMe+69j\nuXKnbc+84/Om8AaPR3zojyCq6MtT1nN+mbwUTKzp8iEW9QU3FY168iDs++Fu91Kg\neCygC+Kj8XJHU/buGV/0xd3dVoeGlcjcjw9lwya1kyy6XzG7+0ir41zhJUj/K+Gf\nEI3HMs7sOQKBgQC9vvWSKekBT4NAWJ/I8YHJa82VOpssLqLSj/CkVgMEWmWcr9kr\nNBy2jakX6Sb1lQDtZb+P0m8SFSc2yuPbtnek+A3icL3iIeNoYNflZ9Jfa+YpW/gl\nYoifsTgd2iVHxeUcqERlI+oQKm2SJt4wPDAfc06jptrESWUmOcEYV+jA2QKBgE7t\nX+zD+vynFaVBr0FEao2ehXDX7IhtyW0igi7CJFoTx1Z6fC+tcnksW8zO/sHZUWI0\n0jbkQcRTILXXr7F+nSAZwd9cu2Q5V+WrnEaQVnVM37gZ+D0wLfF0q3VDkQh9Fg5c\npBbs3HhjbNewzUpM+cOXp+KKPwfF3X1BNhlMkaHZAoGBAMbhapKvhQr2Z86VD5e1\naSTai+TIvg2a/EDdwnr4+O5rxmLBUAaiX8A/jIj45RACgZ3TYwRTHvtiocvkrglC\n2JKHsu27zi3iAzVbdD2ZTzdoq4rXx/QlT5ncF8kO8yJH5Y67zcxQ1oYszkgkbqGb\niO1YH23sOBwaBrWeeU2qgAtI\n-----END PRIVATE KEY-----\n",
+      "client_email": "gcs-admin@acoustic-portal-212110.iam.gserviceaccount.com",
+      "client_id": "111095814686056882444",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://accounts.google.com/o/oauth2/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcs-admin%40acoustic-portal-212110.iam.gserviceaccount.com"
+    }
+    branch:
+      exclude: master
+    when:
+      event: push
   deploy:
-    image: appleboy/drone-ssh
-    port: 22
-    pull: true
-    command_timeout: 180
-    script:
-      - set -eu
-      - sudo systemctl stop homepage.service
-      - sudo docker pull eu.gcr.io/acoustic-portal-212110/homepage:latest
-      - sudo systemctl start homepage.service
-      - sudo systemctl status homepage.service
-      - docker ps
-    secrets: [ ssh_host, ssh_username, ssh_key ]
+    image: plugins/downstream
+    server: https://build-pipeline.com
+    wait: true
+    timeout: 120
+    repositories:
+      - cfischer/infrastructure
+    secrets: [ downstream_token ]
     when:
       branch: master
       event: push

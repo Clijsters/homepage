@@ -36,10 +36,10 @@ pipeline:
       "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
       "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcs-admin%40acoustic-portal-212110.iam.gserviceaccount.com"
     }
-    branch:
-      exclude: master
     when:
       event: push
+      branch:
+        exclude: master
   deploy:
     image: plugins/downstream
     server: https://build-pipeline.com

@@ -3,7 +3,7 @@ pipeline:
     image: plugins/gcr
     repo: acoustic-portal-212110/homepage
     registry: eu.gcr.io
-    tags: latest
+    tags: [ latest, staging ]
     json_key: {
       "type": "service_account",
       "project_id": "acoustic-portal-212110",

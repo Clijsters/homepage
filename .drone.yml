@@ -49,7 +49,6 @@ pipeline:
       - cfischer/infrastructure
     secrets: [ downstream_token ]
     when:
-      branch: master
       event: push
   slack:
     image: plugins/slack

@@ -27,6 +27,7 @@
 </template>
 
 <script>
+// TODO properly calculate offset depending on mobile
 import Vue from 'vue'
 export default {
   computed: {

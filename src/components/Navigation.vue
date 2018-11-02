@@ -43,6 +43,10 @@ export default {
       Vue.config.lang = Vue.config.lang === 'en' ? 'de' : 'en'
     },
     onScroll() {
+      const menuBtn = document.getElementById('menu-btn')
+      if (menuBtn.checked) {
+        menuBtn.checked = false
+      }
       // const rect = document.querySelector('.about').getBoundingClientRect()
       // this.isDark = rect.bottom <= 60
     }

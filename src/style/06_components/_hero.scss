@@ -85,6 +85,14 @@
         border-top: 10px solid $color5;
       }
     }
+
+    @media (hover: none) {
+      &:hover {
+         .hero__arrow {
+          border-top: 10px solid $color6;
+         }
+      }
+    }
   }
 
   &__arrow {

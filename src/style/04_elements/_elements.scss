@@ -66,6 +66,13 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
+
+  @media (hover: none) {
+    &:hover {
+       color: inherit !important;
+       border-color: inherit !important;
+    }
+  }
 }
 
 a {
@@ -75,6 +82,13 @@ a {
 
   &:hover {
     color: inherit;
+  }
+
+  @media (hover: none) {
+    &:hover {
+       color: inherit !important;
+       border-color: inherit !important;
+    }
   }
 }
 

@@ -23,6 +23,11 @@
     max-width: 240px;
     height: 70px;
 
+    &--outfittery {
+      height: 30px !important;
+      margin: 10px 0 10px 0;
+    }
+
     &--rms {
       height: 60px;
       margin: 0 0 20px 0;
@@ -33,7 +38,7 @@
 
     &--magine {
       height: 40px !important;
-      margin: 0 0 20px 0;
+      margin: 0 0 10px 0;
     }
 
     &--gk {

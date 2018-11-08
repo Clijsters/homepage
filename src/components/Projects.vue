@@ -6,7 +6,7 @@
         <div class="column--2 projects__offset">
         </div>
         <div class="projects__info column-mobile--12 column--8">
-          <img class="projects__logo" src="../assets/outfittery_logo.svg" />
+          <img class="projects__logo projects__logo--outfittery" src="../assets/outfittery_logo.svg" />
           <h3 class="projects__header"><a href="https://outfittery.de/" class="projects__link" target="_blank">Outfittery</a></h3>
           <h4>Senior Frontend Engineer, Oct 2017 - present</h4>
           <h4>Berlin, Germany</h4>

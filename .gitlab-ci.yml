@@ -11,8 +11,6 @@ build-master:
   script:
     - docker build --pull -t "$CI_REGISTRY_IMAGE" .
     - docker push "$CI_REGISTRY_IMAGE"
-  script:
-    - "curl -X POST -F token=$INFRASTRUCTURE_TOKEN -F ref=master https://gitlab.com/api/v4/projects/9512925/trigger/pipeline"
   only:
     - master
 
@@ -23,3 +21,9 @@ build:
     - docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG"
   except:
     - master
+
+deploy:
+  stage: deploy
+  script:
+    - apk add --update curl && rm -rf /var/cache/apk/*
+    - curl -X POST -F token=$INFRASTRUCTURE_TOKEN -F ref=master https://gitlab.com/api/v4/projects/9512925/trigger/pipeline

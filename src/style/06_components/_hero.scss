@@ -70,7 +70,7 @@
     }
   }
 
-  @include media(tablet, '') {
+  @include media(tablet, desktop) {
     &__hello {
       max-width: 300px;
     }

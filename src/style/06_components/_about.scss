@@ -28,6 +28,13 @@
     margin-top: 100px;
   }
 
+  @include media(desktop, '') {
+    padding: 300px 0;
+    &__container {
+      min-height: 30vh;
+    }
+  }
+
   @include media('', tablet) {
     &__container {
       max-width: 70%;
@@ -54,7 +61,7 @@
     }
 
     &__container__hello {
-      max-width: 75%;
+      max-width: 81%;
     }
 
     &__social {

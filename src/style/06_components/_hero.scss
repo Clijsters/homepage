@@ -39,7 +39,7 @@
       max-width: 280px;
     }
 
-    &__info1, &__more, &__info2 {
+    &__more, &__info2 {
       max-width: 150px;
     }
   }
@@ -60,9 +60,23 @@
     text-align: left;
   }
 
-  @include media('', mobile) {
+  @include media('', tablet) {
     &__hello {
       margin: 10px 0 0 0;
+    }
+
+    &__info1 {
+      max-width: 150px;
+    }
+  }
+
+  @include media(tablet, '') {
+    &__hello {
+      max-width: 300px;
+    }
+
+    &__info1 {
+      max-width: 250px;
     }
   }
 

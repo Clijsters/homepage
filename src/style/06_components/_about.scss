@@ -7,20 +7,47 @@
 
   &__container {
     margin: 0 auto;
-    max-width: 55%;
+    max-width: 70%;
   }
 
   &__container__hello {
-    margin: 0 auto;
-    max-width: 55%;
+    max-width: 70%;
+  }
+
+  &__hello {
+    text-align: left;
+    margin-left: 6%;
+  }
+
+  &__info1 {
+    text-align: left;
+    margin-left: 6%;
   }
 
   &__social {
     margin-top: 100px;
   }
 
+  @include media('', tablet) {
+    &__container {
+      max-width: 70%;
+    }
+
+    &__container__hello {
+      max-width: 70%;
+    }
+  }
+
   @include media('', mobile) {
     padding: 50px 0 30px 0;
+
+    &__hello {
+      margin-left: 0;
+    }
+
+    &__info1 {
+      margin-left: 5%;
+    }
 
     &__container {
       max-width: 90%;

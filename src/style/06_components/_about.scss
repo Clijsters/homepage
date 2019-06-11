@@ -28,10 +28,15 @@
     margin-top: 100px;
   }
 
-  @include media(desktop, '') {
+  @media screen and (min-height: 1300px) {
     padding: 300px 0;
     &__container {
+      padding: 0 20%;
       min-height: 30vh;
+    }
+
+    &__container__hello {
+      padding: 0 20%;
     }
   }
 

@@ -32,4 +32,4 @@ deploy:
   stage: deploy
   script:
     - apk add --update curl && rm -rf /var/cache/apk/*
-    - curl -X POST -F token=$INFRASTRUCTURE_TOKEN -F ref=master https://gitlab.com/api/v4/projects/9512925/trigger/pipeline
+    - curl -X POST -F token=$INFRASTRUCTURE_TOKEN -F ref=$CI_COMMIT_REF_SLUG https://gitlab.com/api/v4/projects/9512925/trigger/pipeline

@@ -8,7 +8,7 @@
     "start": "npm run serve",
     "dev": "npm run serve",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build && cp ./src/assets/CV_Christian_Fischer.pdf ./dist",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e"

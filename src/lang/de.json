@@ -16,7 +16,8 @@
     "info1": "Ich arbeite seit 8+ Jahren als Software Engineer und habe einen sehr guten Überblick der Industrielandschaft gewonnen und dabei mit vielen Technologien und Programmiersprachen gearbeitet. Ich bin auf Frontend Themen wie JavaScript, React, Angular, HTML, CSS, TypeScript spezialisiert. Aktuell bilde ich mein Wissen zu Leadership, People Management weiter und halte mich auf dem neuesten Stand der Softwareentwicklung."
   },
   "skills": {
-    "heading": "Erfahrung"
+    "heading": "Erfahrung",
+    "downloadcv": "CV herunterladen"
   },
   "projects": {
     "heading": "Projekte"

@@ -16,7 +16,8 @@
     "info1": "I work as a software engineer for 8+ years and acquired a good overview of the industry landscape and worked with many different technologies and programming languages. I am specialized in frontend topics like JavaScript, React, Angular, HTML, CSS, TypeScript. This is what I enjoy the most and I strive to grow my expertise in leadership, people management and anything software related."
   },
   "skills": {
-    "heading": "Expertise"
+    "heading": "Expertise",
+    "downloadcv": "Download CV"
   },
   "projects": {
     "heading": "Projects"

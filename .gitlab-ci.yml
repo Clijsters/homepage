@@ -60,3 +60,7 @@ stop_review:
   environment:
     name: $CI_COMMIT_REF_SLUG.cfischer.io
     action: stop
+  only:
+    - branches
+  except:
+    - master

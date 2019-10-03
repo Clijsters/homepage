@@ -1,15 +1,9 @@
 <template>
   <section id="skills" class="container--fluid skills">
-    <h1 class='skills__heading'>{{ $t("skills.heading") }}</h1>
-    <ul class="skills__cv">
-      <li class="column--12 contact__item--dark">
-        <a href="https://cfischer.io/cv" target="_blank">
-          <img class="contact__image" src="../assets/cv_logo.png" />
-          <p class="contact__image__description">{{ $t("skills.downloadcv") }}</p>
-        </a>
-      </li>
-    </ul>
-    <bar-chart :chart-data="chartData" :options="chartOptions"></bar-chart>
+    <h1 class="skills__heading">{{ $t("skills.heading") }}</h1>
+    <!-- <embed class="skills__cv-preview" src="https://drive.google.com/viewerng/
+viewer?embedded=true&url=https://stage.cfischer.io/cv"> -->
+  <iframe class="skills__cv-preview" src="https://drive.google.com/file/d/1oPNR2RKR9i_8_WrL4kY5HWDasFtq-L4x/preview"></iframe>
   </section>
 </template>
 

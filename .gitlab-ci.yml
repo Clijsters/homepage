@@ -14,7 +14,7 @@ deploy_production:
   variables:
    GIT_STRATEGY: none
   script: >
-    trigger -a $GITLAB_API_TOKEN -p $INFRASTRUCTURE_TOKEN -t master 9512925
+    trigger -a $GITLAB_API_TOKEN -p $INFRASTRUCTURE_TOKEN -t master liaise/infrastructure
     -e DEPLOY_APP=$CI_PROJECT_NAME
     -e DEPLOY_IMAGE=$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG
     -e DEPLOY_URL=cfischer.io
@@ -31,7 +31,7 @@ deploy_review:
   variables:
     GIT_STRATEGY: none
   script: >
-    trigger -a $GITLAB_API_TOKEN -p $INFRASTRUCTURE_TOKEN -t master 9512925
+    trigger -a $GITLAB_API_TOKEN -p $INFRASTRUCTURE_TOKEN -t master liaise/infrastructure
     -e DEPLOY_APP=$CI_PROJECT_NAME
     -e DEPLOY_IMAGE=$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG
     -e DEPLOY_URL=$CI_COMMIT_REF_SLUG.cfischer.io
@@ -51,7 +51,7 @@ stop_review:
   variables:
     GIT_STRATEGY: none
   script: >
-    trigger -a $GITLAB_API_TOKEN -p $INFRASTRUCTURE_TOKEN -t master 9512925
+    trigger -a $GITLAB_API_TOKEN -p $INFRASTRUCTURE_TOKEN -t master liaise/infrastructure
     -e DEPLOY_APP=$CI_PROJECT_NAME
     -e DEPLOY_IMAGE=$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG
     -e DEPLOY_URL=$CI_COMMIT_REF_SLUG.cfischer.io

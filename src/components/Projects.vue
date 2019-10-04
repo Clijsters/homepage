@@ -14,8 +14,8 @@
           </h3>
           <h4>Senior Frontend Engineer, Oct 2017 - present</h4>
           <h4>Berlin, Germany</h4>
-          <p>Outfittery is Europe’s leading personal shopping service for men. Outfittery combines Artificial Intelligence with real-life stylists to help customers find the right clothes. In 2018 Outfittery served 500,000 customers in eight European countries.</p>
-          <p>Currently, my responsibilities include strategical technical planning, technical leadership for customerfacing applications frontend, continuous development and maintenance of the product, interviewing frontend and QA engineers as well as filling and prioritizing the backlog with product managers.</p>
+          <p>Outfittery is Europe's leading personal shopping service for men. Outfittery combines Artificial Intelligence with real-life stylists to help customers find the right clothes. In 2018 Outfittery served 500,000 customers in eight European countries.</p>
+          <p>Currently, my responsibilities include strategical technical planning, technical leadership for customer-facing applications frontend, continuous development and maintenance of the product, interviewing frontend and QA engineers as well as filling and prioritizing the backlog with product managers.</p>
           <p>Besides continuously improving the product and codebase my key achievements are planning and executing the migration to React, establishing a frontend user group, setting up a JS style guide in our projects and introducing a new careers page in collaboration with contractors.</p>
         </div>
       </div>

@@ -39,7 +39,7 @@
       max-width: 280px;
     }
 
-    &__more, &__info2 {
+    &__more {
       max-width: 150px;
     }
   }
@@ -84,13 +84,6 @@
     text-align: left;
     margin: 25px 0 15px 0;
     flex: 1 1 auto;
-  }
-
-  &__info2 {
-    text-align: left;
-    flex: 1 0 auto;
-    margin: 10px 0 0 0;
-    visibility: hidden;
   }
 
   &__more {

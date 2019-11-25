@@ -6,14 +6,13 @@
     "contact": "contact"
   },
   "hero": {
-    "engineer": "Software Engineer & Frontend Expert",
+    "engineer": "Senior Frontend Engineer & Leader",
     "info1": "I can bring your frontend architecture to the next level.",
-    "info2": "I have a strong passion for programming and enjoy to work with brilliant engineers.",
     "more": "Learn more"
   },
   "about": {
-    "hello": "Hi, I'm Christian Fischer. Nice to meet you.",
-    "info1": "I work as a software engineer for 8+ years and acquired a good overview of the industry landscape and worked with many different technologies and programming languages. I am specialized in frontend topics like JavaScript, React, Angular, HTML, CSS, TypeScript. This is what I enjoy the most and I strive to grow my expertise in leadership, people management and anything software related."
+    "hello": "Christian Fischer | Senior Frontend Engineer | Leader",
+    "info1": "I work as a software engineer for 8 years and acquired a good overview of the industry landscape and worked with many different technologies and programming languages. I am specialized in frontend development and currently focus on my leadership and people management skills."
   },
   "skills": {
     "heading": "Expertise"
@@ -31,6 +30,6 @@
   },
   "footer": {
     "withLove": "Handcrafted with",
-    "copyright": "&copy; 2018 Christian Fischer. All rights reserved."
+    "copyright": "&copy; 2019 Christian Fischer. All rights reserved."
   }
 }

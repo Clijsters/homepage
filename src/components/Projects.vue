@@ -15,8 +15,8 @@
           <h4>Senior Frontend Engineer, Oct 2017 - present</h4>
           <h4>Berlin, Germany</h4>
           <p>Outfittery is Europe's leading personal shopping service for men. Outfittery combines Artificial Intelligence with real-life stylists to help customers find the right clothes. In 2018 Outfittery served 500,000 customers in eight European countries.</p>
-          <p>Currently, my responsibilities include strategical technical planning, technical leadership for customer-facing applications frontend, continuous development and maintenance of the product, interviewing frontend and QA engineers as well as filling and prioritizing the backlog with product managers.</p>
-          <p>Besides continuously improving the product and codebase my key achievements are planning and executing the migration to React, establishing a frontend user group, setting up a JS style guide in our projects and introducing a new careers page in collaboration with contractors.</p>
+          <p>Currently, my responsibilities include technical planning and leadership for customer-facing applications frontend, continuous development, and maintenance of the product, interviewing frontend and QA engineers as well as filling and prioritizing the backlog with product managers.</p>
+          <p>Besides continuously improving the product and codebase my key achievements are planning and executing the migration to React, launching Outfittery in France, establishing a frontend user group, and introducing a new careers page in collaboration with contractors.</p>
         </div>
       </div>
       <div class="row">
@@ -28,8 +28,8 @@
           </h3>
           <h4>Software Engineer, Oct 2016 - Sep 2017</h4>
           <h4>Berlin, Germany</h4>
-          <p>Magine Germany operated an online television streaming platform with over 150.000 active users. In 2019 the platform was discontinued and the customers were acquired by Europe's leading online TV platform Zattoo.</p>
-          <p>In this role, I ensured that the code base complied with the latest web standards and best practices. This included upgrading the AngularJS version, rewriting many frontend services and introducing Webpack and SCSS. I developed a majority of the streaming page on which users watched TV. With the customer support team, I was able to plan and release the Zendesk help center. The marketing teams could rely on me and get help with IT questions, the maintenance of the Wordpress CMS and respective code changes.</p>
+          <p>Magine Germany operated an online television streaming platform with over 150.000 active users. In 2019 the platform was discontinued and the customers were acquired by Europe’s leading online TV platform Zattoo.</p>
+          <p>In this role, I developed the majority of the streaming page on which users watched TV and continuously improved the product while ensuring that the code base complied with the latest web standards and best practices. This included upgrading the AngularJS version, rewriting many frontend services and introducing Webpack and SCSS. I was the contact person for German and Swedish marketing teams and responsible to provide support and maintenance of the Wordpress CMS in collaboration with an external agency. With the customer support team, I was able to plan and release the Zendesk help center.</p>
         </div>
       </div>
       <div class="row">
@@ -68,7 +68,7 @@
           <h4>Software Engineer, Feb 2012 - Feb 2015</h4>
           <h4>Frankfurt Area, Germany</h4>
           <p>RMS Viewer extends Windows Rights Management on iOS, Android, Windows RT and BlackBerry devices for mobile data security.</p>
-          <p>I developed the server setup and update routine for this enterprise product. This required me to have a good understanding of Windows Server 2008 - 2012 R2, IIS Webservices, NSIS, and VBScript. Further responsibilities included the development and maintenance of our C++/CX Windows Store App. For the remaining mobile platforms, I was able to help with manual testing and porting the codebase.</p>
+          <p>I developed the server setup and update routine for this enterprise product. This required me to have a good understanding of Windows Server 2008 - 2012 R2, IIS Webservices, NSIS, and VBScript. Further responsibilities included the development and maintenance of the C++/CX Windows Store App. For Android, BlackBerry and IOS mobile platforms, I was supporting the team with manual testing and porting the codebase.</p>
         </div>
       </div>
     </div>

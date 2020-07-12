@@ -5,70 +5,118 @@
       <div class="row">
         <div class="column--2 projects__offset"></div>
         <div class="projects__info column-mobile--12 column--8">
+          <img class="projects__logo projects__logo--1und1" src="../assets/1und1_logo.svg" />
+          <h3 class="projects__header">
+            <a
+              href="https://1und1.de"
+              class="projects__link"
+              target="_blank"
+            >1&1 Telecommunication SE</a>
+          </h3>
+          <h4>Advanced Software Developer, Jan 2018 - present</h4>
+          <h4>Montabaur, Germany</h4>
+          <p>With 4.4 million customers, 1&1 Telecommunication SE is germanys largest alternative DSL provider after Deutsche Telekom. Since 2010, 1&1 has also been operating as a successful mobile phone provider and in 2019 took one step further towards becoming a successful full-service provider with the acquisition of 5G licenses.</p>
+          <p>An important success factor is the sophisticated commission model of indirect sales, the technical development of which is my responsibility. Technical focus is on Java 11, Spring Boot, maven, Docker, grails, IBM ODM, postgreSQL and Sybase ASE.</p>
+          <p>In addition to technical development and expansion, constantly growing demands and changing regulations require quick reaction time, good concepts and excellent communication skills.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column--2 projects__offset"></div>
+        <div class="projects__info column-mobile--12 column--8">
           <img
-            class="projects__logo projects__logo--outfittery"
-            src="../assets/outfittery_logo.svg"
+            class="projects__logo projects__logo--chamaeleon"
+            src="../assets/chamaeleon_logo.svg"
           />
           <h3 class="projects__header">
-            <a href="https://outfittery.com" class="projects__link" target="_blank">Outfittery</a>
+            <a href="https://chamaeleon.de" class="projects__link" target="_blank">Chamaeleon AG</a>
           </h3>
-          <h4>Senior Frontend Engineer, Oct 2017 - present</h4>
-          <h4>Berlin, Germany</h4>
-          <p>Outfittery is Europe's leading personal shopping service for men. Outfittery combines Artificial Intelligence with real-life stylists to help customers find the right clothes. In 2018 Outfittery served 500,000 customers in eight European countries.</p>
-          <p>Currently, my responsibilities include technical planning and leadership for customer-facing applications frontend, continuous development, and maintenance of the product, interviewing frontend and QA engineers as well as filling and prioritizing the backlog with product managers.</p>
-          <p>Besides continuously improving the product and codebase my key achievements are planning and executing the migration to React, launching Outfittery in France, establishing a frontend user group, and introducing a new careers page in collaboration with contractors.</p>
+          <h4>Software Developer / CMS Consultant, Jul 2016 - Dec 2017</h4>
+          <h4>Montabaur, Germany</h4>
+          <p>Chamaeleon AG is one of Germany's most successful CMS providers with focus on cities, municipalities and public organizations. With ionas4, a proprietary cms from Chamaeleon AG, the target group has been expanded to include medium-sized and large companies.</p>
+          <p>I was responsible for the further development of ionas4 and the development of SEO strategies for our customers. I also advised our corporate clients during the introduction of the new CMS and was technically responsible for migration projects. I also supervised apprentices and distributed tasks.</p>
         </div>
       </div>
       <div class="row">
         <div class="column--2 projects__offset"></div>
         <div class="projects__info column-mobile--12 column--8">
-          <img class="projects__logo projects__logo--magine" src="../assets/magine_logo.svg" />
+          <img class="projects__logo projects__logo--man" src="../assets/datagroup_logo.png" />
           <h3 class="projects__header">
-            <a href="https://zattoo.com" class="projects__link" target="_blank">Magine TV</a>
+            <a
+              href="https://www.datagroup.de"
+              class="projects__link"
+              target="_blank"
+            >DATAGROUP / Bayer Healthcare</a>
           </h3>
-          <h4>Software Engineer, Oct 2016 - Sep 2017</h4>
-          <h4>Berlin, Germany</h4>
-          <p>Magine Germany operated an online television streaming platform with over 150.000 active users. In 2019 the platform was discontinued and the customers were acquired by Europe’s leading online TV platform Zattoo.</p>
-          <p>In this role, I developed the majority of the streaming page on which users watched TV and continuously improved the product while ensuring that the code base complied with the latest web standards and best practices. This included upgrading the AngularJS version, rewriting many frontend services and introducing Webpack and SCSS. I was the contact person for German and Swedish marketing teams and responsible to provide support and maintenance of the Wordpress CMS in collaboration with an external agency. With the customer support team, I was able to plan and release the Zendesk help center.</p>
+          <h4>On-Site-Support & Software Development, Nov 2014 - Jul 2016</h4>
+          <h4>Cologne Area, Germany</h4>
+          <p>As one of the leading IT service companies in Germany, DATAGROUP offers IT services and software solutions for many major customers throughout Germany.</p>
+          <p>During the on-site support at a large pharmaceutical company in NRW I was soon able to prove my extensive skills in the maintenance and development of software systems.</p>
+          <p>After being responsible for some hardware migrations, I soon dedicated myself to migrating outdated enterprise software to a modern Java technology stack. I also supported colleagues at other well-known customers in the extension of various SharePoint applications.</p>
         </div>
       </div>
       <div class="row">
         <div class="column--2 projects__offset"></div>
         <div class="projects__info column-mobile--12 column--8">
-          <img class="projects__logo projects__logo--man" src="../assets/8man_logo.png" />
+          <img
+            class="projects__logo projects__logo--xylo-it"
+            src="../assets/xylo-it_logo.svg"
+          />
           <h3 class="projects__header">
-            <a href="https://www.solarwinds.com/access-rights-manager" class="projects__link" target="_blank">8MAN</a>
+            <a href="https://xylo-it.de" class="projects__link" target="_blank">Self-emploed - "Xylo-IT Hosting & Development"</a>
           </h3>
-          <h4>Software Engineer, Nov 2015 - Aug 2016</h4>
-          <h4>Berlin, Germany</h4>
-          <p>Leading European solution for workflow-based access rights management, offering permission analysis, security monitoring, documentation and reporting, and user provisioning. Enables companies and public authorities in protecting their IT systems by offering an easy-to-understand display, management, and control of access and permission rights.</p>
-          <p>This project gave me the opportunity to build this technically cutting edge web application. I made major technology and design decisions. Changes I introduced include rewriting and porting unstructured JavaScript code to TypeScript, unit testing with Jasmine and dropping the previous frontend framework in favor of Angular 2. I was also involved in the development of the C# ASP.NET Web API endpoints.</p>
+          <h4>Software Developer / Web Consulting, Mar 2014 - present</h4>
+          <h4>Cologne/Bonn Area, Germany</h4>
+          <p></p>
         </div>
       </div>
       <div class="row">
         <div class="column--2 projects__offset"></div>
         <div class="projects__info column-mobile--12 column--8">
-          <img class="projects__logo projects__logo--gk" src="../assets/gk_logo.png" />
+          <img class="projects__logo projects__logo--agrip" src="../assets/agrip_logo.png" />
           <h3 class="projects__header">
-            <a href="https://glueckkanja.com" class="projects__link" target="_blank">CloudBoot</a>
+            <a href="https://agrip.de" class="projects__link" target="_blank">AGRIP.IT</a>
           </h3>
-          <h4>Software Engineer, Jan 2015 - Sep 2015</h4>
-          <h4>Frankfurt Area, Germany</h4>
-          <p>CloudBoot enables operating system deployment over the internet.</p>
-          <p>For this project, I developed the client application which is embedded inside a USB stick from which users boot into the operating system setup. As well as the server-side which is responsible for handling authentication, updating the client and providing customized operating system images and additional configuration for each customer. The user can install any operating system of their choice and has the convenience of pre-configured custom operating system images. An operating system installs unattended over the internet and optional configuration is possible through the client.</p>
+          <h4>IT System Administrator, Mar 2014 - Nov 2014</h4>
+          <h4>Cologne/Bonn Area, Germany</h4>
+          <p>AGRIP is a local IT provider and expert for telephone systems, with a focus on small and medium-sized companies. AGRIP also offers postal and financial services as a partner of Deutsche Post AG.</p>
+          <p>My responsibility was the support of customers on site and the repair and maintenance of PC and printer systems. I was also responsible for supporting Deutsche Post customers, both in letter and parcel dispatch and in cash dispensing and deposits for Postbank customers. We have thus also managed high cash and stamp stocks.</p>
+          <p>I used this part-time position to have more time for the restoration of my Japanese youngtimer.</p>
         </div>
       </div>
       <div class="row">
         <div class="column--2 projects__offset"></div>
         <div class="projects__info column-mobile--12 column--8">
-          <div class="projects__logo projects__logo--rms"></div>
+          <div class="projects__logo projects__logo--chinook"></div>
           <h3 class="projects__header">
-            <a href="http://www.rmsviewer.com" class="projects__link" target="_blank">RMS Viewer</a>
+            <a
+              href="http://www.chinook-design.de/"
+              class="projects__link"
+              target="_blank"
+            >Chinook deSign AG</a>
           </h3>
-          <h4>Software Engineer, Feb 2012 - Feb 2015</h4>
-          <h4>Frankfurt Area, Germany</h4>
-          <p>RMS Viewer extends Windows Rights Management on iOS, Android, Windows RT and BlackBerry devices for mobile data security.</p>
-          <p>I developed the server setup and update routine for this enterprise product. This required me to have a good understanding of Windows Server 2008 - 2012 R2, IIS Webservices, NSIS, and VBScript. Further responsibilities included the development and maintenance of the C++/CX Windows Store App. For Android, BlackBerry and IOS mobile platforms, I was supporting the team with manual testing and porting the codebase.</p>
+          <h4>IT Data Scientist, Jun 2013 - Mar 2014</h4>
+          <h4>Frankfurt, Germany</h4>
+          <p>Chinook deSign is a startup and think tank in Frankfurt, Germany, focusing on planning, testing and marketing online projects.</p>
+          <p>My role was to design and implement web applications based on Zend Framework 2, mainly in the areas of lead generation, insurance and comparison portals.</p>
+          <p>I was also responsible for all topics around SEO and web performance. I created my own onsite SEO concepts which resulted in performance improvements of several hundred percent. One of them even made a customer cry.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column--2 projects__offset"></div>
+        <div class="projects__info column-mobile--12 column--8">
+          <div class="projects__logo projects__logo--hmbuchdata"></div>
+          <h3 class="projects__header">
+            <a
+              href="http://www.hmbuchdata.de"
+              class="projects__link"
+              target="_blank"
+            >H+M Buchdata EDV / Werner-von-Siemens-Schule</a>
+          </h3>
+          <h4>IT-Systemelektroniker (Duale Berufsausbildung), Feb 2012 - Feb 2015</h4>
+          <h4>Frankfurt, Germany</h4>
+          <p>I completed my three-year professional training at HM Buchdata in Frankfurt, a system house with a broad customer base in the non-profit and public sectors and the economy.</p>
+          <p>During my training I learned how to work in a structured way, how to deal with customers in a professional manner and how to respect experience. This demanded a lot of patience from my trainer, as I found other skills more important at the age of 15.</p>
+          <p>However, my experience in programming enabled me to automate some internal processes, accelerate migrations and support my colleagues. After graduation I left the company immediately due to several moral concerns.</p>
         </div>
       </div>
     </div>

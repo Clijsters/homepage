@@ -6,13 +6,13 @@
     "contact": "kontakt"
   },
   "hero": {
-    "engineer": "Senior Frontend Engineer & Leader",
-    "info1": "Ich bringe Ihre Frontend Architektur auf das nächste Level.",
+    "engineer": "Senior Software Engineer & Leader",
+    "info1": "Ich bringe Ihre Enterprise Software auf das nächste Level.",
     "more": "Erfahren Sie mehr"
   },
   "about": {
-    "hello": "Christian Fischer | Senior Frontend Engineer | Leader",
-    "info1": "Ich arbeite seit 8 Jahren als Software Engineer, habe einen sehr guten Überblick über die Industrielandschaft und mit etlichen Technologien und Programmiersprachen gearbeitet. Ich bin auf Frontend Themen spezialisiert und bilde mich aktuell weiter im Bereich Leadership und People Management."
+    "hello": "Dominique Clijsters | Senior Software Engineer | Leader",
+    "info1": "Ich entwickle seit fast zehn Jahren professionell Software. Ich habe Erfahrung in Kundenbetreuung, Beratung, Projektmanagement und Support. Ich nehme regelmäßig an Schulungen und Konferenzen teil und spreche auf der JUG Koblenz und dem TECDay von 1&1 IONOS."
   },
   "skills": {
     "heading": "Erfahrung"
@@ -26,6 +26,6 @@
   },
   "footer": {
     "withLove": "Handarbeit mit",
-    "copyright": "&copy; 2019 Christian Fischer. Alle Rechte vorbehalten."
+    "copyright": "&copy; 2020 Dominique Clijsters. Alle Rechte vorbehalten."
   }
 }

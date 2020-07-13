@@ -3,6 +3,13 @@
   "version": "1.1.0",
   "description": "My personal homepage",
   "author": "Christian Fischer <contact@cfischer.io>",
+  "contributors": [
+    {
+      "name": "Dominique Clijsters",
+      "email": "github@clijsters.de",
+      "url": "clijsters.de"
+    }
+  ],
   "private": true,
   "scripts": {
     "start": "npm run serve",

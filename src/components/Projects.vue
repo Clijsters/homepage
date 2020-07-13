@@ -66,7 +66,7 @@
           </h3>
           <h4>Software Developer / Web Consulting, Mar 2014 - present</h4>
           <h4>Cologne/Bonn Area, Germany</h4>
-          <p></p>
+          <p>TODO</p>
         </div>
       </div>
       <div class="row">

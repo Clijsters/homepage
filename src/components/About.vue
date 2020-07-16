@@ -8,19 +8,19 @@
 
       <ul class="about__social row">
         <li class="column--4 contact__item">
-          <a href="https://www.linkedin.com/in/cfischerio" target="_blank">
+          <a href="https://www.linkedin.com/in/clijsters" target="_blank">
             <img class="contact__image" src="../assets/linkedin.png" />
             <p class="contact__image__description">{{ $t("contact.linkedin") }}</p>
           </a>
         </li>
         <li class="column--4 contact__item">
-          <a href="https://github.com/cfischer" target="_blank">
+          <a href="https://github.com/clijsters" target="_blank">
             <img class="contact__image" src="../assets/github.png" />
             <p class="contact__image__description">{{ $t("contact.github") }}</p>
           </a>
         </li>
         <li class="column--4 contact__item">
-          <a href="https://www.xing.com/profile/Christian_Fischer364" target="_blank">
+          <a href="https://www.xing.com/profile/Dominique_Clijsters/cv" target="_blank">
             <img class="contact__image" src="../assets/xing.png" />
             <p class="contact__image__description">{{ $t("contact.xing") }}</p>
           </a>

@@ -7,6 +7,6 @@
 @media all and (min-width: 0px) {
   @font-face {
     font-family: $font-family--avenir;
-    src: url(../assets/avenir_normal.otf) format('truetype');
+    src: url(~assets/avenir_normal.otf) format('truetype');
   }
 }

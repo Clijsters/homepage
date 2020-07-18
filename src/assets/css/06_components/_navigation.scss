@@ -25,7 +25,7 @@
     height: 30px;
     margin: 10px;
     padding: 15px;
-    background: no-repeat center/100 url(../assets/usa_flag.svg);
+    background: no-repeat center/100 url(~assets/usa_flag.svg);
     vertical-align: bottom;
     transition: all .35s ease, background-image ease 0s;
 
@@ -34,11 +34,11 @@
     }
 
     &--en {
-      background-image: url(../assets/usa_flag.svg);
+      background-image: url(~assets/usa_flag.svg);
     }
 
     &--de {
-      background-image: url(../assets/germany_flag.svg);
+      background-image: url(~assets/germany_flag.svg);
     }
 
     @media (min-width: 48em) {

@@ -9,7 +9,7 @@
   }
 
   &__header {
-    max-width: 150px;
+    max-width: 300px;
     color: $color2;
     transition: all .25s ease-in-out;
 
@@ -20,34 +20,34 @@
   }
 
   &__logo {
-    max-width: 240px;
-    height: 70px;
+    max-width: 480px;
+    height: 50px;
 
-    &--outfittery {
-      height: 30px !important;
-      margin: 10px 0 10px 0;
-    }
+    // &--1und1 {
+    //   height: 40px !important;
+    //   margin: 10px 0 10px 0;
+    // }
 
-    &--rms {
-      height: 60px;
-      margin: 0 0 20px 0;
-      background: url(../assets/rmsviewer_logo.png) no-repeat 10px center;
-      background-color: $color2;
-      border-radius: 10px;
-    }
+    // &--rms {
+    //   height: 60px;
+    //   margin: 0 0 20px 0;
+    //   //background: url(~assets/rmsviewer_logo.png) no-repeat 10px center;
+    //   background-color: $color2;
+    //   border-radius: 10px;
+    // }
 
-    &--magine {
-      height: 40px !important;
-      margin: 0 0 10px 0;
-    }
+    // &--chamaeleon {
+    //   height: 40px !important;
+    //   margin: 0 0 10px 0;
+    // }
 
-    &--gk {
-      margin: 0 0 0 -10px;
-    }
+    // &--gk {
+    //   margin: 0 0 0 -10px;
+    // }
 
-    &--man {
-      margin: 0 0 0 -15px;
-    }
+    // &--man {
+    //   margin: 0 0 0 -15px;
+    // }
   }
 
   &__info {

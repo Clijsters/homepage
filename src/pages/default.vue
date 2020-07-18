@@ -1,12 +1,12 @@
 <template>
   <div id="app" class="app is__center">
-    <navigation></navigation>
-    <hero></hero>
-    <about></about>
-    <skills></skills>
-    <projects></projects>
-    <contact></contact>
-    <foot></foot>
+    <navigation />
+    <hero />
+    <about />
+    <skills />
+    <projects />
+    <contact />
+    <foot />
   </div>
 </template>
 
@@ -19,7 +19,7 @@ import projects from '@/components/Projects'
 import contact from '@/components/Contact'
 import foot from '@/components/Foot'
 export default {
-  name: 'app',
+  name: 'App',
   components: {
     navigation,
     hero,

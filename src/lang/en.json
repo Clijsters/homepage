@@ -6,13 +6,13 @@
     "contact": "contact"
   },
   "hero": {
-    "engineer": "Senior Frontend Engineer & Leader",
-    "info1": "I can bring your frontend architecture to the next level.",
+    "engineer": "Senior Software Engineer & Leader",
+    "info1": "I can bring your enterprise software to the next level.",
     "more": "Learn more"
   },
   "about": {
-    "hello": "Christian Fischer | Senior Frontend Engineer | Leader",
-    "info1": "I work as a software engineer for 8 years and acquired a good overview of the industry landscape and worked with many different technologies and programming languages. I am specialized in frontend development and currently focus on my leadership and people management skills."
+    "hello": "Dominique Clijsters | Senior Software Engineer | Leader",
+    "info1": "I have been developing software professionally for almost ten years. I have experience in customer care, consulting, project management and support. I regularly attend training courses and conferences and speak at the JUG Koblenz and the TECDay of 1&1 IONIS."
   },
   "skills": {
     "heading": "Expertise"
@@ -26,10 +26,11 @@
     "mail": "Mail",
     "linkedin": "LinkedIn",
     "xing": "Xing",
+    "stackoverflow": "StackOverflow",
     "github": "GitHub"
   },
   "footer": {
     "withLove": "Handcrafted with",
-    "copyright": "&copy; 2019 Christian Fischer. All rights reserved."
+    "copyright": "&copy; 2020 Dominique Clijsters. All rights reserved."
   }
 }

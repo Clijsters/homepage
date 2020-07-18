@@ -7,8 +7,8 @@
       </div>
       <ul class="" style="margin-top: 40px">
         <li class="contact__item--dark">
-          <a href="mailto:contact@cfischer.io">
-            <img class="contact__image" src="../assets/mail.png" />
+          <a href="mailto:contact@clijsters.de">
+            <img class="contact__image" src="../assets/mail.png">
             <p class="contact__image__description">{{ $t("contact.mail") }}</p>
           </a>
         </li>

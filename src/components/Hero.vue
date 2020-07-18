@@ -2,11 +2,15 @@
   <section id="hero" class="hero">
     <div class="hero__graylayer container--fluid ">
       <div class="hero__container">
-        <h1 class="hero__hello">{{ $t("hero.engineer") }}</h1>
-        <p class="hero__info1">{{ $t("hero.info1") }}</p>
-        <a class="hero__more" href="#" v-scroll-to="{ el: '#about', offset: -40 }">
+        <h1 class="hero__hello">
+          {{ $t("hero.engineer") }}
+        </h1>
+        <p class="hero__info1">
+          {{ $t("hero.info1") }}
+        </p>
+        <a v-scroll-to="{ el: '#about', offset: -40 }" class="hero__more" href="#">
           <p>{{ $t("hero.more") }}</p>
-          <span class="hero__arrow"></span>
+          <span class="hero__arrow" />
         </a>
       </div>
     </div>
@@ -15,19 +19,19 @@
 
 <script>
 export default {
+  mounted () {
+    this.setHeroHeight()
+    window.addEventListener('resize', this.setHeroHeight)
+  },
   methods: {
     /**
       Fixes incorrect 100vh on mobile clients.
     */
-    setHeroHeight() {
+    setHeroHeight () {
       // document.getElementById('hero').style.height = `${window.innerHeight}px`
     }
   },
-  mounted() {
-    this.setHeroHeight()
-    window.addEventListener('resize', this.setHeroHeight)
-  },
-  destroy() {
+  destroy () {
     window.removeEventListener('resize', this.setHeroHeight)
   }
 }

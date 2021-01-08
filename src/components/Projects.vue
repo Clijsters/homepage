@@ -5,7 +5,25 @@
       <div class="row">
         <div class="column--2 projects__offset" />
         <div class="projects__info column-mobile--12 column--8">
-          <img class="projects__logo projects__logo--1und1" src="../assets/1und1_logo.svg">
+          <img class="projects__logo projects__logo--disc" src="../assets/disc_logo.png" alt="DiSC Logo">
+          <h3 class="projects__header">
+            <a
+              href="https://digital-solutions.consulting"
+              class="projects__link"
+              target="_blank"
+            >DiSC - Digital Solutions Consulting GmbH</a>
+          </h3>
+          <h4>Senior Consultant, Nov 2020 - Now</h4>
+          <h4>NRW/RLP, Germany</h4>
+          <p>DiSC is a fast-growing, young consulting startup in the Westerwald Area specialized on finance, telecommunication, and insurance.</p>
+          <p>With mostly technical consulting we have prominent customers in and around germany.</p>
+          <p>Currently, I'm supporting a company in the implementation of a modern micro service architecture for a nationwide network of traffic control, access control and monitoring systems. I design a modular system to enable the internal developers to easily and quickly create and roll out new services. This enables the customer to react quickly to market requirements and to outperform the competition.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column--2 projects__offset" />
+        <div class="projects__info column-mobile--12 column--8">
+          <img class="projects__logo projects__logo--1und1" src="../assets/1und1_logo.svg" alt="1und1 Logo">
           <h3 class="projects__header">
             <a
               href="https://1und1.de"
@@ -13,11 +31,12 @@
               target="_blank"
             >1&1 Telecommunication SE</a>
           </h3>
-          <h4>Advanced Software Developer, Jan 2018 - present</h4>
+          <h4>Advanced Software Developer, Jan 2018 - Nov 2020</h4>
           <h4>Montabaur, Germany</h4>
-          <p>With 4.4 million customers, 1&1 Telecommunication SE is germanys largest alternative DSL provider after Deutsche Telekom. Since 2010, 1&1 has also been operating as a successful mobile phone provider and in 2019 took one step further towards becoming a successful full-service provider with the acquisition of 5G licenses.</p>
-          <p>An important success factor is the sophisticated commission model of indirect sales, the technical development of which is my responsibility. Technical focus is on Java 11, Spring Boot, maven, Docker, grails, IBM ODM, postgreSQL and Sybase ASE.</p>
+          <p>With 4.4 million customers, 1&1 Telecommunication SE is Germany's largest alternative DSL provider after Deutsche Telekom. Since 2010, 1&1 has also been operating as a successful mobile phone provider and in 2019 took one step further towards becoming a successful full-service provider with the acquisition of 5G licenses.</p>
+          <p>An important success factor is the sophisticated commission model of indirect sales, the technical development of which was my responsibility. Technical focus was on Java 11, Spring Boot, maven, Docker, grails, IBM ODM, postgreSQL and Sybase ASE.</p>
           <p>In addition to technical development and expansion, constantly growing demands and changing regulations require quick reaction time, good concepts and excellent communication skills.</p>
+          <p>I also organized and participated in concern-wide tech-talks, Java User Group and supported the company on Job fairs, hackathons, etc.</p>
         </div>
       </div>
       <div class="row">

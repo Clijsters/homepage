@@ -50,7 +50,7 @@ Just use the dockerfile in project root to deploy the homepage to a production s
 
 ## See it in action
 <p align="center">
-<a href="https://clijsters.de"><img src=".res/presentation.gif" alt="website showcase gif"></a></p>
+<a href="https://clijsters.de"><img style="max-width:500px" src=".res/presentation.gif" alt="website showcase gif"></a></p>
 
 
 [1]: https://clijsters.de

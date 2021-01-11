@@ -12,25 +12,25 @@
 
       <ul class="about__social row">
         <li class="column--3 contact__item">
-          <a href="https://www.linkedin.com/in/clijsters" target="_blank">
+          <a href="https://www.linkedin.com/in/clijsters" target="_blank" rel="nofollow">
             <img class="contact__image" src="../assets/linkedin.png">
             <p class="contact__image__description">{{ $t("contact.linkedin") }}</p>
           </a>
         </li>
         <li class="column--3 contact__item">
-          <a href="https://github.com/clijsters" target="_blank">
+          <a href="https://github.com/clijsters" target="_blank" rel="nofollow">
             <img class="contact__image" src="../assets/github.png">
             <p class="contact__image__description">{{ $t("contact.github") }}</p>
           </a>
         </li>
         <li class="column--3 contact__item">
-          <a href="https://www.xing.com/profile/Dominique_Clijsters/cv" target="_blank">
+          <a href="https://www.xing.com/profile/Dominique_Clijsters/cv" target="_blank" rel="nofollow">
             <img class="contact__image" src="../assets/xing.png">
             <p class="contact__image__description">{{ $t("contact.xing") }}</p>
           </a>
         </li>
         <li class="column--3 contact__item">
-          <a href="https://stackoverflow.com/users/4068240/clijsters" target="_blank">
+          <a href="https://stackoverflow.com/users/4068240/clijsters" target="_blank" rel="nofollow">
             <img class="contact__image" src="../assets/stackoverflow.png">
             <p class="contact__image__description">{{ $t("contact.stackoverflow") }}</p>
           </a>

@@ -11,6 +11,7 @@
               href="https://digital-solutions.consulting"
               class="projects__link"
               target="_blank"
+              rel="nofollow"
             >DiSC - Digital Solutions Consulting GmbH</a>
           </h3>
           <h4>Senior Consultant, Nov 2020 - Now</h4>
@@ -29,6 +30,7 @@
               href="https://1und1.de"
               class="projects__link"
               target="_blank"
+              rel="nofollow"
             >1&1 Telecommunication SE</a>
           </h3>
           <h4>Advanced Software Developer, Jan 2018 - Nov 2020</h4>
@@ -48,7 +50,7 @@
             alt="Chamaeleon AG logo"
           >
           <h3 class="projects__header">
-            <a href="https://chamaeleon.de" class="projects__link" target="_blank">IONAS 4</a>
+            <a href="https://chamaeleon.de" class="projects__link" target="_blank" rel="nofollow">IONAS 4</a>
           </h3>
           <h4>Software Developer / CMS Consultant, Jul 2016 - Dec 2017</h4>
           <h4>Montabaur, Germany</h4>
@@ -65,6 +67,7 @@
               href="https://www.datagroup.de"
               class="projects__link"
               target="_blank"
+              rel="nofollow"
             >DATAGROUP / Bayer Healthcare</a>
           </h3>
           <h4>On-Site-Support & Software Development, Nov 2014 - Jul 2016</h4>
@@ -82,11 +85,12 @@
             src="../assets/xylo-it_logo.png"
           >
           <h3 class="projects__header">
-            <a href="https://xylo-it.de" class="projects__link" target="_blank">Self employed</a>
+            <a href="https://xylo-it.de" class="projects__link" target="_blank" rel="nofollow">Self employed</a>
           </h3>
           <h4>Software Developer / Web Consulting, Mar 2014 - present</h4>
           <h4>Cologne/Bonn Area, Germany</h4>
-          <p>TODO</p>
+          <p>Since 2014 I offer website and hosting consulting on freelance basis, with focus on rebranding and SEO. I offer complete hosting solutions and support my clients with GDPR and website performance issues.</p>
+          <p>I also sell handmade wooden cases for desktop computers.</p>
         </div>
       </div>
       <div class="row">
@@ -94,7 +98,7 @@
         <div class="projects__info column-mobile--12 column--8">
           <img class="projects__logo projects__logo--agrip" src="../assets/agrip_logo.png">
           <h3 class="projects__header">
-            <a href="https://agrip.de" class="projects__link" target="_blank">AGRIP.IT</a>
+            <a href="https://agrip.de" class="projects__link" target="_blank" rel="nofollow">AGRIP.IT</a>
           </h3>
           <h4>IT System Administrator, Mar 2014 - Nov 2014</h4>
           <h4>Cologne/Bonn Area, Germany</h4>
@@ -112,6 +116,7 @@
               href="http://www.chinook-design.de/"
               class="projects__link"
               target="_blank"
+              rel="nofollow"
             >Chinook deSign AG</a>
           </h3>
           <h4>IT Data Scientist, Jun 2013 - Mar 2014</h4>
@@ -130,6 +135,7 @@
               href="http://www.hmbuchdata.de"
               class="projects__link"
               target="_blank"
+              rel="nofollow"
             >H+M Buchdata EDV / Werner-von-Siemens-Schule</a>
           </h3>
           <h4>IT-Systemelektroniker (Duale Berufsausbildung), Feb 2012 - Feb 2015</h4>

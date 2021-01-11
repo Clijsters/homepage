@@ -7,4 +7,4 @@ COPY src/ ./
 RUN npm run build
 
 EXPOSE 3000
-ENTRYPOINT ["npm", "run", "serve"]
+ENTRYPOINT ["npm", "run", "start"]

@@ -1,6 +1,7 @@
 FROM node:14.15.4-stretch
 COPY src/package*.json ./
-RUN npm ci
+RUN npm install
+#RUN npm ci
 COPY src/ ./
 RUN npm run build
 

@@ -7,10 +7,10 @@
 </p>
 <p align="center">
     <a href="https://ci.appveyor.com/project/Clijsters/homepage/branch/master">
-        <img alt="Build status for master" src="https://ci.appveyor.com/api/projects/status/c6u0f4gk3ibxwa46/branch/master?svg=true&passingText=master%20-%20OK&pendingText=master%20-%20Pending&failingText=master%20-%20Failing">
+        <img alt="Build status for master" src="https://ci.appveyor.com/api/projects/status/p687a9bmsn17nx9h/branch/master?svg=true&passingText=master%20-%20OK&pendingText=master%20-%20Pending&failingText=master%20-%20Failing">
     </a>
     <a href="https://ci.appveyor.com/project/Clijsters/homepage/branch/develop">
-        <img alt="Build status for develop" src="https://ci.appveyor.com/api/projects/status/c6u0f4gk3ibxwa46/branch/develop?svg=true&passingText=develop%20-%20OK&pendingText=develop%20-%20Pending&failingText=develop%20-%20Failing">
+        <img alt="Build status for develop" src="https://ci.appveyor.com/api/projects/status/p687a9bmsn17nx9h/branch/develop?svg=true&passingText=develop%20-%20OK&pendingText=develop%20-%20Pending&failingText=develop%20-%20Failing">
     </a>
     <a href="https://codecov.io/gh/Clijsters/homepage">
         <img alt="codecov Code Coverage" src="https://codecov.io/gh/Clijsters/PSToggl/branch/develop/graph/badge.svg">

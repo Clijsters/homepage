@@ -12,13 +12,55 @@
   },
   "about": {
     "hello": "Dominique Clijsters | Senior Software Engineer | Leader",
-    "info1": "Ich entwickle seit fast zehn Jahren professionell Software. Ich habe Erfahrung in Kundenbetreuung, Beratung, Projektmanagement und Support. Ich nehme regelmäßig an Schulungen und Konferenzen teil und spreche auf der JUG Koblenz und dem TECDay von 1&1 IONOS."
+    "info1": "Ich entwickle seit fast zehn Jahren professionell Software. Mit meinen Erfahrungen in Kundenbetreuung, Beratung, Projektmanagement und Support unterstütze ich Unternehmen in Aufbau & Transformation von Enterprise Software. Ich nehme regelmäßig an Schulungen und Konferenzen teil und spreche auf der JUG Koblenz und dem TECDay von 1&1 IONOS."
   },
   "skills": {
     "heading": "Erfahrung"
   },
   "projects": {
-    "heading": "Projekte"
+    "heading": "Projekte",
+    "disc": {
+      "first": "Die Digital Solutions Consulting GmbH ist ein modernes, schnell-wachsendes startup aus dem Westerwald und ist spezialisiert auf Beratung in den Branchen finance, Telekommunikation und Versicherung.",
+      "second": "Wir haben bereits zahlreiche namhafte Kunden in und um Deutschland, für die wir beratend tätig sind, hauptsächlich im Bereich technical consulting.",
+      "third": "Aktuell unterstuetze ich den Marktführer für Straßen- und Baustellensicherheit bei der Umsetzung einer modernen Microservice-Architektur für landesweit eingesetzte Verkehrssicherungssysteme. Ein modulares System ermöglicht den Entwicklern des Kunden leicht und schnell neue Dienste auszurollen und somit blitzschnell auf Marktanforderungen zu reagieren."
+
+    },
+    "1und1": {
+      "first": "",
+      "second": "",
+      "third": "",
+      "fourth": ""
+    },
+    "chamaeleon": {
+      "first": "",
+      "second": "",
+      "third": ""
+    },
+    "datagroup": {
+      "first": "",
+      "second": "",
+      "third": ""
+    },
+    "xylo-it": {
+      "first": "",
+      "second": "",
+      "third": ""
+    },
+    "agrip": {
+      "first": "",
+      "second": "",
+      "third": ""
+    },
+    "chinook": {
+      "first": "",
+      "second": "",
+      "third": ""
+    },
+    "buchdata": {
+      "first": "",
+      "second": "",
+      "third": ""
+    }
   },
   "contact": {
     "heading": "Brauchen Sie Verstärkung?",

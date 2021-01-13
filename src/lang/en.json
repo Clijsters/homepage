@@ -6,19 +6,60 @@
     "contact": "contact"
   },
   "hero": {
-    "engineer": "Senior Software Engineer & Leader",
-    "info1": "I can bring your enterprise software to the next level.",
+    "engineer": "Senior Consultant & Software Engineer",
+    "info1": "I will bring your enterprise software to the next level.",
     "more": "Learn more"
   },
   "about": {
-    "hello": "Dominique Clijsters | Senior Software Engineer | Leader",
-    "info1": "I have been developing software professionally for almost ten years. I have experience in customer care, consulting, project management and support. I regularly attend training courses and conferences and speak at the JUG Koblenz and the TECDay of 1&1 IONIS."
+    "hello": "Dominique Clijsters | Senior Software Consultant | Leader",
+    "info1": "I have been developing software professionally for almost ten years. I have experience in customer care, consulting, project management and support. I regularly attend training courses and conferences and speak at the JUG Koblenz and the TECDay of 1&1 IONOS."
   },
   "skills": {
     "heading": "Expertise"
   },
   "projects": {
-    "heading": "Projects"
+    "heading": "Projects",
+    "disc": {
+      "first": "DiSC is a fast-growing, young consulting startup in the Westerwald Area specialized on finance, telecommunication, and insurance.",
+      "second": "With mostly technical consulting we have prominent customers in and around germany.",
+      "third": "Currently, I'm supporting a company in the implementation of a modern micro service architecture for a nationwide network of traffic control, access control and monitoring systems. I design a modular system to enable the internal developers to easily and quickly create and roll out new services. This enables the customer to react quickly to market requirements and to outperform the competition."
+    },
+    "1und1": {
+      "first": "With 4.4 million customers, 1&1 Telecommunication SE is Germany's largest alternative DSL provider after Deutsche Telekom. Since 2010, 1&1 has also been operating as a successful mobile phone provider and in 2019 took one step further towards becoming a successful full-service provider with the acquisition of 5G licenses.",
+      "second": "An important success factor is the sophisticated commission model of indirect sales, the technical development of which was my responsibility. Technical focus was on Java 11, Spring Boot, maven, Docker, grails, IBM ODM, postgreSQL and Sybase ASE.",
+      "third": "In addition to technical development and expansion, constantly growing demands and changing regulations require quick reaction time, good concepts and excellent communication skills.",
+      "fourth": "I also organized and participated in concern-wide tech-talks, Java User Group and supported the company on Job fairs, hackathons, etc."
+    },
+    "chamaeleon": {
+      "first": "Chamaeleon AG is one of Germany's most successful CMS providers with focus on cities, municipalities and public organizations. With ionas4, a proprietary cms from Chamaeleon AG, the target group has been expanded to include medium-sized and large companies.",
+      "second": "I was responsible for the further development of ionas4 and the development of SEO strategies for our customers. I also advised our corporate clients during the introduction of the new CMS and was technically responsible for migration projects. I also supervised apprentices and distributed tasks.",
+      "third": ""
+    },
+    "datagroup": {
+      "first": "As one of the leading IT service companies in Germany, DATAGROUP offers IT services and software solutions for many major customers throughout Germany.",
+      "second": "During the on-site support at a large pharmaceutical company in NRW I was soon able to prove my extensive skills in the maintenance and development of software systems.",
+      "third": "After being responsible for some hardware migrations, I soon dedicated myself to migrating outdated enterprise software to a modern Java technology stack. I also supported colleagues at other well-known customers in the extension of various SharePoint applications."
+    },
+    "xylo-it": {
+      "first": "Since 2014 I offer website and hosting consulting on freelance basis, with focus on rebranding and SEO. I offer complete hosting solutions and support my clients with GDPR and website performance issues.",
+      "second": "I also sell handmade wooden cases for desktop computers.",
+      "third": ""
+    },
+    "agrip": {
+      "first": "AGRIP is a local IT provider and expert for telephone systems, with a focus on small and medium-sized companies. AGRIP also offers postal and financial services as a partner of Deutsche Post AG.",
+      "second": "My responsibility was the support of customers on site and the repair and maintenance of PC and printer systems. I was also responsible for supporting Deutsche Post customers, both in letter and parcel dispatch and in cash dispensing and deposits for Postbank customers. We have thus also managed high cash and stamp stocks.",
+      "third": "I used this part-time position to have more time for the restoration of my Japanese youngtimer."
+    },
+    "chinook": {
+      "first": "Chinook deSign is a startup and think tank in Frankfurt, Germany, focusing on planning, testing and marketing online projects.",
+      "second": "My role was to design and implement web applications based on Zend Framework 2, mainly in the areas of lead generation, insurance and comparison portals.",
+      "third": "I was also responsible for all topics around SEO and web performance. I created my own onsite SEO concepts which resulted in performance improvements of several hundred percent. One of them even made a customer cry."
+    },
+    "buchdata": {
+      "first": "I completed my three-year professional training at HM Buchdata in Frankfurt, a system house with a broad customer base in the non-profit and public sectors and the economy.",
+      "second": "During my training I learned how to work in a structured way, how to deal with customers in a professional manner and how to respect experience. This demanded a lot of patience from my trainer, as I found other skills more important at the age of 15.",
+      "third": "However, my experience in programming enabled me to automate some internal processes, accelerate migrations and support my colleagues. After graduation I left the company immediately due to several moral concerns."
+    }
   },
   "contact": {
     "heading": "Interested in working together?",

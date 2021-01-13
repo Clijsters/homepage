@@ -9,7 +9,7 @@
   }
 
   &__header {
-    max-width: 300px;
+    max-width: 500px;
     color: $color2;
     transition: all .25s ease-in-out;
 
@@ -21,12 +21,12 @@
 
   &__logo {
     max-width: 480px;
-    height: 50px;
+    max-height: 50px;
 
-    // &--1und1 {
-    //   height: 40px !important;
-    //   margin: 10px 0 10px 0;
-    // }
+     &--1und1 {
+       height: 50px;
+       width: 50px;
+     }
 
     // &--rms {
     //   height: 60px;
@@ -36,10 +36,10 @@
     //   border-radius: 10px;
     // }
 
-    // &--chamaeleon {
-    //   height: 40px !important;
-    //   margin: 0 0 10px 0;
-    // }
+     &--chamaeleon {
+       height: 50px ;
+       width: 90px;
+     }
 
     // &--gk {
     //   margin: 0 0 0 -10px;

@@ -24,41 +24,27 @@ export default {
     return {
       chartData: {
         labels: [
-          'Java 8+',
-          'maven',
+          'Java',
           'Spring (Boot)',
-          'ReST',
           'Git',
           'PowerShell',
-          'AspectJ',
           'SQL',
-          'JavaScript',
-          'HTML5',
-          '.Net',
-          'Python',
-          'C/C++'
+          'Frontend',
+          '.Net'
         ],
         datasets: [
           {
             label: 'Proficiency',
             data: [
-              0.95,
-              0.85,
-              0.8,
               0.9,
+              0.86,
               1,
               0.85,
-              0.8,
               0.7,
               0.7,
-              0.75,
-              0.6,
-              0.45,
-              0.3
+              0.8
             ],
             backgroundColor: [
-              'rgba(45, 114, 143, 1)',
-              'rgba(45, 114, 143, 1)',
               'rgba(45, 114, 143, 1)',
               'rgba(45, 114, 143, 1)',
               'rgba(45, 114, 143, 1)',

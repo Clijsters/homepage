@@ -1,3 +1,4 @@
+<!--suppress HtmlUnknownAnchorTarget -->
 <template>
   <header class="navigation__header">
     <a v-scroll-to="{ el: '#app' }" href="#" class="logo navigation__link">clijsters</a>

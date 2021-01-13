@@ -12,26 +12,26 @@
 
       <ul class="about__social row">
         <li class="column--3 contact__item">
-          <a href="https://www.linkedin.com/in/clijsters" target="_blank" rel="nofollow">
-            <img class="contact__image" src="../assets/linkedin.png">
+          <a href="https://www.linkedin.com/in/clijsters" target="_blank" rel="nofollow" onClick="gtag('send', 'event', 'click', 'contact','linkedin');">
+            <img class="contact__image" src="../assets/linkedin.png" alt="LinkedIn-Logo">
             <p class="contact__image__description">{{ $t("contact.linkedin") }}</p>
           </a>
         </li>
         <li class="column--3 contact__item">
-          <a href="https://github.com/clijsters" target="_blank" rel="nofollow">
-            <img class="contact__image" src="../assets/github.png">
+          <a href="https://github.com/clijsters" target="_blank" rel="nofollow" onClick="gtag('send', 'event', 'click', 'github');">
+            <img class="contact__image" src="../assets/github.png" alt="GitHub-Logo">
             <p class="contact__image__description">{{ $t("contact.github") }}</p>
           </a>
         </li>
         <li class="column--3 contact__item">
-          <a href="https://www.xing.com/profile/Dominique_Clijsters/cv" target="_blank" rel="nofollow">
-            <img class="contact__image" src="../assets/xing.png">
+          <a href="https://www.xing.com/profile/Dominique_Clijsters/cv" target="_blank" rel="nofollow" onClick="gtag('send', 'event', 'click', 'contact','xing');">
+            <img class="contact__image" src="../assets/xing.png" alt="Xing-Logo">
             <p class="contact__image__description">{{ $t("contact.xing") }}</p>
           </a>
         </li>
         <li class="column--3 contact__item">
-          <a href="https://stackoverflow.com/users/4068240/clijsters" target="_blank" rel="nofollow">
-            <img class="contact__image" src="../assets/stackoverflow.png">
+          <a href="https://stackoverflow.com/users/4068240/clijsters" target="_blank" rel="nofollow" onClick="gtag('send', 'event', 'click', 'stackoverflow');">
+            <img class="contact__image" src="../assets/stackoverflow.png" alt="StackOverflow-Logo">
             <p class="contact__image__description">{{ $t("contact.stackoverflow") }}</p>
           </a>
         </li>

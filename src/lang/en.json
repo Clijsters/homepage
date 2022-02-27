@@ -12,7 +12,7 @@
   },
   "about": {
     "hello": "Dominique Clijsters | Senior Software Consultant | Leader",
-    "info1": "I have been developing software professionally for almost ten years. I have experience in customer care, consulting, project management and support. I regularly attend training courses and conferences and speak at the JUG Koblenz and the TECDay of 1&1 IONOS."
+    "info1": "I have been developing software professionally for over ten years. I have experience in customer care, consulting, project management and support. I regularly attend training courses and conferences and speak at the JUG Koblenz and the TECDay of 1&1 IONOS."
   },
   "skills": {
     "heading": "Expertise"
@@ -22,7 +22,7 @@
     "disc": {
       "first": "DiSC is a fast-growing, young consulting startup in the Westerwald Area specialized on finance, telecommunication, and insurance.",
       "second": "With mostly technical consulting we have prominent customers in and around germany.",
-      "third": "Currently, I'm supporting a company in the implementation of a modern micro service architecture for a nationwide network of traffic control, access control and monitoring systems. I design a modular system to enable the internal developers to easily and quickly create and roll out new services. This enables the customer to react quickly to market requirements and to outperform the competition."
+      "third": "Currently, I'm responsible for a team of 3 software consultants, plus I'm consulting a DevOps-Team in a state-owned enterprise. I was responsible for design & implementation of a modern micro service architecture for a nationwide network of traffic control and monitoring systems. I created Spring modules to easily and quickly roll out new services. This enables the customer to outperform the competition."
     },
     "1und1": {
       "first": "With 4.4 million customers, 1&1 Telecommunication SE is Germany's largest alternative DSL provider after Deutsche Telekom. Since 2010, 1&1 has also been operating as a successful mobile phone provider and in 2019 took one step further towards becoming a successful full-service provider with the acquisition of 5G licenses.",

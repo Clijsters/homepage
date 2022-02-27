@@ -6,13 +6,13 @@
     "contact": "kontakt"
   },
   "hero": {
-    "engineer": "Senior Software Engineer & Leader",
-    "info1": "Ich bringe Ihre Enterprise Software auf das nächste Level.",
+    "engineer": "Senior Consultant & Software Engineer",
+    "info1": "Gemeinsam bringen wir Ihr Software Team auf das nächste Level.",
     "more": "Erfahren Sie mehr"
   },
   "about": {
-    "hello": "Dominique Clijsters | Senior Software Engineer | Leader",
-    "info1": "Ich entwickle seit fast zehn Jahren professionell Software. Mit meinen Erfahrungen in Kundenbetreuung, Beratung, Projektmanagement und Support unterstütze ich Unternehmen in Aufbau & Transformation von Enterprise Software. Ich nehme regelmäßig an Schulungen und Konferenzen teil und spreche auf der JUG Koblenz und dem TECDay von 1&1 IONOS."
+    "hello": "Dominique Clijsters | Senior Software Consultant | Leader",
+    "info1": "Ich entwickle seit über zehn Jahren professionell Software. Mit meinen Erfahrungen in Kundenbetreuung, Beratung, Projektmanagement und Support unterstütze ich Unternehmen in Aufbau & Transformation von Enterprise Software. Ich nehme regelmäßig an Schulungen und Konferenzen teil und bilde Software Teams fort."
   },
   "skills": {
     "heading": "Erfahrung"
@@ -21,8 +21,8 @@
     "heading": "Projekte",
     "disc": {
       "first": "Die Digital Solutions Consulting GmbH ist ein modernes, schnell-wachsendes startup aus dem Westerwald und ist spezialisiert auf Beratung in den Branchen finance, Telekommunikation und Versicherung.",
-      "second": "Wir haben bereits zahlreiche namhafte Kunden in und um Deutschland, für die wir beratend tätig sind, hauptsächlich im Bereich technical consulting.",
-      "third": "Aktuell unterstuetze ich den Marktführer für Straßen- und Baustellensicherheit bei der Umsetzung einer modernen Microservice-Architektur für landesweit eingesetzte Verkehrssicherungssysteme. Ein modulares System ermöglicht den Entwicklern des Kunden leicht und schnell neue Dienste auszurollen und somit blitzschnell auf Marktanforderungen zu reagieren."
+      "second": "Wir haben bereits zahlreiche namhafte Kunden in und um Deutschland, für die wir beratend tätig sind, hauptsächlich im Bereich Software consulting. (Java, Spring, Camunda, IBM, Big Data)",
+      "third": "Ich führe ein Team aus 3 Software Consultants und berate ein Staatsunternehmen beim Betrieb von Java-basierten Microservices in einem Kubernetes-Cluster. Davor war ich in Projekten mit einem europaweit agierenden Smart Grid Dienstleister und dem Marktführer für Straßen- und Baustellensicherheit (landesweit eingesetztes Verkehrssicherungssystem)"
 
     },
     "1und1": {
